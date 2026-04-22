@@ -4,3 +4,4 @@
 .obsidian/workspace.json.bak
 .trash/
 *.tmp
+.sync.lock

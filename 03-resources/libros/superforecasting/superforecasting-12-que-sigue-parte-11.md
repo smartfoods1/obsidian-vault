@@ -1,0 +1,18 @@
+---
+date: '2026-04-22'
+type: resource
+tags:
+  - libro
+  - superforecasting
+  - capitulo-12
+  - forecasting
+  - decision-making
+source: 'Superforecasting Cap 12: What's Next? (parte 11/12)'
+status: activo
+---
+# Superforecasting — What's Next? (parte 11/12)
+
+People so rarely adjusted their thinking that when the president of the Federal Reserve Bank of Minneapolis, an Austerian, announced publicly that events had shown the Keynesians were closer to the truth, it made headlines—that could have read “Man Changes His Mind in Response to Evidence.” The 2014 Bloomberg follow-up to the 2010 letter illustrates failure. I am not saying the letter writers were wrong on substance. I am agnostic on issues outside my field. The failure is one of process: In 2010 one group spelled out their beliefs in writing, and warned that if Bernanke pursued his policy certain results would follow. Another group vehemently disagreed. Four years passed and no one budged. That should be unsatisfactory to everyone, no matter what their views on the merits. There were attempts to extract lessons from events during those years, but they mostly involved brute force. Hammering opponents both for their forecasting failures and for not acknowledging them was a standard theme in the columns of Paul Krugman, whose Nobel Prize in economics and
+New York Times
+bully pulpit made him the most prominent Keynesian. Krugman’s opponents hammered back. Niall Ferguson wrote a three-part catalog of Krugman’s alleged failures. Back and forth it went, with each side poring over the other’s forecasts, looking for failures, deflecting attacks, and leveling accusations. For fans of one side or the other, it may have been thrilling. For those who hope that we can become collectively wiser, it was a bewildering fracas that looked less like a debate between great minds and more like a food fight between rival fraternities. These are accomplished people debating pressing issues, but nobody seems to have learned anything beyond how to defend their original position. We can do better. Remember the “adversarial collaboration” between Daniel Kahneman and Gary Klein? These two psychologists won acclaim by developing apparently contradictory schools of thought, making each man a threat to the legacy of the other. But they were committed to playing by scientific ground rules, so they got together to discuss why they had such different views and how they could be reconciled. Something similar could, in principle, be done in forecasting. When a debate like “Keynesians versus Austerians” emerges, key figures could work together—with the help of trusted third parties—to identify what they disagree about and which forecasts would meaningfully test those disagreements. The key is precision. It’s one thing for Austerians to say a policy will cause inflation and Keynesians to say it won’t. But how much inflation? Measured by
+what benchmark? Over what time period? The result must be a forecast question that reduces ambiguity to an absolute minimum. A single dot on a canvas is not a painting and a single bet cannot resolve a complex theoretical dispute. This will take many questions and question clusters. Of course it’s possible that if large numbers of questions are asked, each side may be right on some forecasts but wrong on others and the final outcome won’t generate the banner headlines that celebrity bets sometimes do. But as software engineers say, that’s a feature, not a bug. A major point of view rarely has zero merit, and if a forecasting contest produces a split decision we will have learned that the reality is more mixed than either side thought. If learning, not gloating, is the goal, that is progress.

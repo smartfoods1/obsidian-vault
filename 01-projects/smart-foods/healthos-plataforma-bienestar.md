@@ -54,9 +54,13 @@ URL: salud.smartfoods.ar (DNS pendiente de configurar)
 ## Sprints Completados
 5A (auth + home), 5B (motor IA + mis retos), 5C (progreso + graficos), 5D/E (perfil + adaptogenos), 5F (profesionales + contenido)
 
+## Canal de Revenue Directo
+"Mis Adaptogenos" muestra el protocolo del onboarding con prioridad 1/2/3 y los adaptogenos de retos activos. Cada card tiene boton "Comprar en Smart Foods" con link directo a Shopify (PRODUCTS_CATALOG). Si no hay URL, no muestra boton. Deduplicacion automatica si el mismo producto aparece en protocolo y reto.
+
 ## Bloqueantes Actuales
-1. **DNS:** Falta record A en Hostinger (5 min) + certbot SSL (2 min)
-2. **Sprint 6A pendiente:** Cron de recordatorio diario por WhatsApp (toggle existe pero no el ejecutor)
+1. **DNS:** Falta record A en Hostinger: Tipo A, Nombre: salud, Valor: 76.13.228.77, TTL: 3600. Luego: `certbot --nginx -d salud.smartfoods.ar`
+2. **Sprint 6A pendiente:** Cron de recordatorio diario por WhatsApp (el toggle en Mi Perfil existe pero el ejecutor que realmente envia los mensajes NO existe todavia — critico para retencion)
+3. **DB pendiente Sprint 6A:** 3 columnas nuevas ya en `health_users`: whatsapp_daily_reminder, reminder_time, updated_at
 
 ## Decision Pendiente
-> Antes de seguir construyendo features, activar DNS y llevar 10 beta users reales. Cada sprint sin usuarios reales = features en el vacio.
+> Antes de seguir construyendo features, activar DNS y llevar 10 beta users reales. Cada sprint sin usuarios reales = features en el vacio. Esto se marco 5 veces en sesiones. El cuello de botella no es tecnico — son 3 pasos en Hostinger.

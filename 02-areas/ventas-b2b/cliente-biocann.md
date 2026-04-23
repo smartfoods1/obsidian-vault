@@ -7,28 +7,54 @@ tags:
   - biocann
   - cannabis
   - smartbrain
-status: activo
+status: propuesta-enviada
 ---
 # Cliente B2B: Biocann (Cannabis Medicinal)
 
 ## Datos del Deal
-- **Valor:** USD 4,000 + USD 200/sesion suelta (paquete 4 sesiones = USD 700)
-- **Contacto:** Leonardo (CEO)
-- **Industria:** Cannabis medicinal
+- **Valor final enviado:** USD 3,500 (implementacion completa + 4 sesiones)
+- **Contacto:** Leonardo (founder/CEO)
+- **Ubicacion:** Epuyen, Patagonia, Chubut
+- **Industria:** Cannabis medicinal (Leyes 27.350, 27.669, Ley Salome)
+- **Habilitacion:** Dispensa directa ministerial
+- **Estado:** Propuesta enviada, Loom grabado y enviado, ida y vuelta con Leonardo, listo para avanzar
 
-## Estructura de Implementacion
+## Estructura Enviada
 
-### Fase 1: Implementacion Autonoma (2-3 semanas)
-- Migrar bot WhatsApp de Respond.io → API Meta directo
-- VPS configurado, conectores listos
-- Andres no arma flujos — eso se hace en conjunto
+### Pago
+- USD 3,500 total
+- 50% adelantado (USD 1,750) para arrancar
+- 50% al inicio de las sesiones
+
+### Fase 1: Deploy Autonomo (2-3 semanas)
+- Andres pide accesos e implementa VPS con conectores
+- Migrar bot WhatsApp de Respond.io → API Meta directo (infraestructura, NO flujos)
+- VPS con staging y produccion configurados
+- Eliminacion de Respond.io (ahorro de fee mensual para Leonardo)
+- Los flujos de negocio NO se arman en esta fase (requieren contexto regulatorio)
 
 ### Fase 2: 4 Sesiones Semanales
-- Fine-tuning + Leonardo codea, Andres guia
+- Fine-tuning, configuracion de flujos y exploracion de nuevas features
+- Leonardo codea (ya conoce Claude Code), Andres guia y facilita
 - Construccion conjunta de flujos (critico por regulacion cannabis)
+- CRM: segmentacion pacientes REPROCANN / gestion / medicos de red / turistas / coberturas
 
 ### Post-implementacion
-- Sesiones sueltas a USD 150/sesion (o paquete 4 por USD 500 — early adopter pricing)
+- Sesiones sueltas: USD 150/sesion (90 min + prep previa por WA/mail)
+- Paquete 4 sesiones: USD 500 (early adopter pricing)
+- Nota: estos precios estan por debajo del target ($200/$700). Para proximos clientes subir.
+
+## Stack Actual de Leonardo
+- Wix (ecommerce)
+- Respond.io (WhatsApp bot con menu clasico "apreta 1, 2 o 3")
+- Sin CRM centralizado
+- Agencias externas para marketing y diseno (dolor explicito)
+
+## Lineas de Negocio Biocann
+- Cannabis medicinal con pacientes REPROCANN + seguimiento medico
+- Red medica propia
+- Modelo de coberturas (similar a planes de salud)
+- Turismo cannábico: Reserva Los Cauces (web separada, posible scope futuro)
 
 ## Proposicion de Valor
 - Migracion de WhatsApp (elimina fee de Respond.io)
@@ -38,10 +64,13 @@ status: activo
 - Inteligencia de mercado (analisis de competidores)
 
 ## Riesgos Identificados
-1. Regulacion cannabis medicinal = restricciones de comunicacion
-2. Segmentacion CRM mucho mas compleja que ecommerce tipico
-3. Wix puede bloquear integraciones clave (clausula de migracion a Shopify ya en propuesta)
-4. Identidad de marca de Biocann indefinida (riesgo de scope creep)
+1. Regulacion cannabis medicinal = restricciones de comunicacion. Contenido con IA requiere revision legal obligatoria
+2. Segmentacion CRM mucho mas compleja que ecommerce tipico (5 tipos de usuario distintos)
+3. Wix puede bloquear integraciones clave (clausula de migracion a Shopify ya en propuesta — proyecto se pausa, no se cancela, sin costo adicional)
+4. Identidad de marca de Biocann indefinida (riesgo de scope creep en contenido)
+5. Zona remota (Epuyen) — accesos pueden demorar, estimar 3 semanas de deploy real
 
-## Decision Operativa
-Leonardo requiere herramienta completa deployada en su VPS + 1 mes de seguimiento (no 3 meses como Korean Root).
+## Contexto Paralelo
+- Victoria (Korean Root) ya cerrada: USD 3,000 por 3 meses — primer cliente confirmado
+- Biocann seria el segundo cliente en paralelo
+- Propuesta comercial generica de SmartBrain disponible en PDF (ver [[02-areas/ventas-b2b/propuesta-comercial-smartbrain|Propuesta Comercial SmartBrain]])

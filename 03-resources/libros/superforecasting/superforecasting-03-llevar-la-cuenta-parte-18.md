@@ -1,0 +1,18 @@
+---
+date: '2026-04-22'
+type: resource
+tags:
+  - libro
+  - superforecasting
+  - capitulo-03
+  - forecasting
+  - decision-making
+source: 'Superforecasting Cap 03: Keeping Score (parte 18/19)'
+status: activo
+---
+# Superforecasting — Keeping Score (parte 18/19)
+
+Each eye is an enormous, bulging sphere, the surface of which is covered with tiny lenses. Depending on the species, there may be as many as thirty thousand of these lenses on a single eye, each one occupying a physical space slightly different from those of the adjacent lenses, giving it a unique perspective. Information from these thousands of unique perspectives flows into the dragonfly’s brain where it is synthesized into vision so superb that the dragonfly can see in almost every direction simultaneously, with the clarity and precision it needs to pick off flying insects at high speed. A fox with the bulging eyes of a dragonfly is an ugly mixed metaphor but it captures a key reason why the foresight of foxes is superior to that of hedgehogs with their green-tinted glasses. Foxes aggregate perspectives. Unfortunately, aggregation doesn’t come to us naturally. The
+tip-of-your-nose perspective insists that it sees reality objectively and correctly, so there is no need to consult other perspectives. All too often we agree. We don’t consider alternative views—even when it’s clear that we should. This is painfully obvious at a poker table. Even weak players know, in principle, that seeing through the eyes of opponents is critical. She raised the bet $20? What does that tell me about her thinking—and the cards she has? Each bet is another clue to what your opponent is holding, or wants you to think she is holding, and the only way to piece it together is to imagine yourself in her seat. Good perspective-takers can make a lot of money. So you might suppose that anyone who takes poker seriously would get good at it, quickly, or take up another hobby. And yet they so often don’t.
+“Here’s a very simple example,” says Annie Duke, an elite professional poker player, winner of the World Series of Poker, and a former PhD-level student of psychology. “Everyone who plays poker knows you can either fold, call, or raise [a bet]. So what will happen is that when a player who isn’t an expert sees another player raise, they automatically assume that that player is strong, as if the size of the bet is somehow correlated at one with the strength of the other person’s hand.” This is a mistake. Duke teaches poker and to get her students to see like dragonflies she walks them through a game situation. A hand is dealt. You like your cards. In the first of several rounds of betting, you wager a certain amount. The other player immediately raises your bet substantially. Now, what do you think the other player has? Duke has taught thousands of students “and universally, they say ‘I think they have a really strong hand.’ ” So then she asks them to imagine the same situation, except they’re playing against her. The cards are dealt. Their hand is more than strong—it’s unbeatable. Duke makes her bet. Now, what will you do? Will you raise her bet? “And they say to me, ‘Well, no.’ ” If they raise,
+Duke may conclude their hand is strong and fold. They don’t want to scare her off. They want Duke to stay in for each of the rounds of betting so they can expand the pot as much as possible before they scoop it up. So they won’t raise. They’ll only call. Duke then walks them through the same hypothetical with a hand that is beatable but still very strong. Will you raise? No. How about a little weaker hand that is still a likely winner?

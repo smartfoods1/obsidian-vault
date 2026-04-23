@@ -1,0 +1,18 @@
+---
+date: '2026-04-22'
+type: resource
+tags:
+  - libro
+  - superforecasting
+  - capitulo-03
+  - forecasting
+  - decision-making
+source: 'Superforecasting Cap 03: Keeping Score (parte 11/19)'
+status: activo
+---
+# Superforecasting — Keeping Score (parte 11/19)
+
+For example, after the 2012 presidential election, Nate Silver, Princeton’s Sam Wang, and other poll aggregators were hailed for correctly predicting all fifty state outcomes, but almost no one noted that a crude, across-the-board prediction of “no change”—if a state went Democratic or Republican in 2008, it will do the same in 2012—would have scored forty-eight out of fifty, which suggests that the many excited exclamations of “He called all fifty states!” we heard at the time were a tad overwrought. Fortunately, poll aggregators are pros: they know that improving predictions tends to be a game of inches. Another key benchmark is other forecasters. Who can beat everyone else? Who can beat the consensus forecast? How do they pull it off? Answering these questions requires comparing Brier scores, which, in turn, requires a level playing field. Forecasting the weather
+in Phoenix is just plain easier than forecasting the weather in Springfield, Missouri, where weather is notoriously variable, so comparing the Brier scores of a Phoenix meteorologist with those of a Springfield meteorologist would be unfair. A 0.2 Brier score in Springfield could be a sign that you are a world-class meteorologist. It’s a simple point, with a big implication: dredging up old forecasts from newspapers will seldom yield apples-to-apples comparisons because, outside of tournaments, real-world forecasters seldom predict exactly the same developments over exactly the same time period. Add it all up and we are ready to roll. Like Archie Cochrane and other pioneers of evidence-based medicine, we must run carefully crafted experiments. Assemble forecasters. Ask them large numbers of questions with precise time frames and unambiguous language. Require that forecasts be expressed using numerical probability scales. And wait for time to pass. If the researchers have done their jobs, the results will be clear. The data can be analyzed and the key questions—How good are the forecasters? Who are the best? What sets them apart?—can be answered. EXPERT POLITICAL JUDGMENT
+That’s what I set out to do in the mid-1980s, but I ran into rough spots early on. Despite my all but begging the highest-profile pundits to take part, none would participate. Nonetheless, I managed to recruit 284 serious professionals, card-carrying experts whose livelihoods involved analyzing political and economic trends and events. Some were academics working in universities or think tanks. Others worked for branches of the US government, or for international organizations such as the World Bank and the International Monetary Fund, or for the media. A small number were quite famous, others well known in their professional communities, some early
+in their careers and at that point quite obscure. But I still had to guarantee anonymity because even experts who were not in the Tom Friedman–elite class were reluctant to risk their reputations for zero professional payoff. Anonymity also ensured that participants would make their best guesses, uninfluenced by fear of embarrassment. The effects of public competition would have to wait for a future study. The first questions put to the experts were about themselves. Age? (The average was forty-three.) Relevant work experience? (The average was 12.2 years.) Education? (Almost all had postgraduate training; half had PhDs.) We also asked about their ideological leanings and preferred approaches to solving political problems.

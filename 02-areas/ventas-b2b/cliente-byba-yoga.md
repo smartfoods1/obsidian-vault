@@ -39,6 +39,30 @@ No es solo un cliente piloto. Es el laboratorio donde se valida si pilares de co
 - Templates recurrentes: lunes horarios, miercoles testimonio, viernes motivacion
 - Hashtag bank rotatorio (global + local + nicho)
 
+## Arquitectura Tecnica SmartCopilot Tier 1
+Prompt completo generado para implementar 5 prioridades en VPS. Incluye:
+
+### Schema (5 tablas nuevas)
+- `content_pillars`: pilares con porcentaje asignado por cliente
+- `testimonials`: banco de testimonios reales con tracking de uso (para rotar)
+- `reference_photos`: fotos del estudio como referencia visual para Gemini
+- `content_templates`: templates recurrentes (lunes horarios, miercoles testimonio, etc.)
+- `hashtag_bank`: hashtags segmentados global/local/nicho con rotacion automatica
+
+### Funcion Clave
+`get_enriched_context()` — enriquece cada generacion con el testimonio menos usado, fotos de referencia y hashtags rotatorios.
+
+### Datos Iniciales Cargados
+- 21 hashtags segmentados (globales: #bikramyoga #hotyoga, locales: #yogabuenosaires, nicho: #26posturas)
+- 3 templates recurrentes pre-configurados
+- Pilares ya calibrados al mix correcto para hot yoga
+
+### Bug Conocido
+Generacion semanal inteligente genera copy pero NO imagenes. Causa probable: funcion de imagen no se llama en el cron, error silencioso (try/except sin log), o funcion async sin await. Prompt de diagnostico generado.
+
+## Decision Estrategica
+> No buildear FAQ/soporte in-app todavia. Usar el bot de WhatsApp de SmartCopilot como canal de soporte (el cliente aprende como funciona el bot usandolo). Buildear en su lugar un onboarding de 3 pasos para primer login.
+
 ## Metricas de Exito
 - [ ] Duenio revisa/aprueba contenido en menos de 5 min
 - [ ] Engagement rate vs contenido manual anterior

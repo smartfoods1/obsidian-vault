@@ -17,10 +17,10 @@ Curso/plataforma para ensenar a CEOs y emprendedores a usar Claude Code para sus
 URL objetivo: ceocode.ar
 
 ## Estado Tecnico
-- Landing funcional en HTTP (IP directa: 76.13.228.77:8088)
-- DNS propago (ceocode.ar apunta a 76.13.228.77)
-- SSL incompleto (falta certbot/Let's Encrypt)
-- Capturando leads
+- Landing funcional en HTTPS: https://ceocode.ar
+- DNS propagado y SSL configurado con certbot/Let's Encrypt (completado abril 2026)
+- www.ceocode.ar tambien funciona
+- Capturando leads de forma pasiva
 
 ## Por que esta pausado
 > CEO Code es "shiny object" mientras Korean Root no cierre resultados medibles. Necesita un trigger objetivo (KPIs) para reactivar — no intuicion.

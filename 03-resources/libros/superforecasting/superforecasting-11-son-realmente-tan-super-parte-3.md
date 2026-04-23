@@ -1,0 +1,18 @@
+---
+date: '2026-04-22'
+type: resource
+tags:
+  - libro
+  - superforecasting
+  - capitulo-11
+  - forecasting
+  - decision-making
+source: 'Superforecasting Cap 11: Are They Really So Super? (parte 3/11)'
+status: activo
+---
+# Superforecasting — Are They Really So Super? (parte 3/11)
+
+And yet in each case, the average amount people said they would be willing to pay was around $80. What people were responding to, Kahneman later wrote, was the prototypical image that came to them—a polluted lake or a drowning, oil-soaked duck. “The prototype automatically evokes an affective response, and the intensity of that emotion is then mapped onto the dollar scale.” It’s classic bait and switch. Instead of answering the question asked—a difficult one that requires putting a
+money value on things we never monetize—people answered “How bad does this make me feel?” Whether the question is about 2,000 or 200,000 dying ducks, the answer is roughly the same: bad. Scope recedes into the background—and out of sight, out of mind. What do polluted lakes have to do with the Syrian civil war or any of the other geopolitical problems posed in the IARPA tournament? If you are as creative as Daniel Kahneman, the answer is “a lot.”
+Flash back to early 2012. How likely is the Assad regime to fall? Arguments against a fall include (1) the regime has well-armed core supporters; (2) it has powerful regional allies. Arguments in favor of a fall include (1) the Syrian army is suffering massive defections; (2) the rebels have some momentum, with fighting reaching the capital. Suppose you weight the strength of these arguments, they feel roughly equal, and you settle on a probability of roughly 50%. But notice what’s missing? The time frame. It obviously matters. To use an extreme illustration, the probability of the regime falling in the next twenty-four hours must be less—likely a lot less—than the probability that it will fall in the next twenty-four months. To put this in Kahneman’s terms, the time frame is the “scope” of the forecast. So we asked one randomly selected group of superforecasters, “How likely is it that the Assad regime will fall in the next three months?” Another group was asked how likely it was in the next six months. We did the same experiment with regular forecasters. Kahneman predicted widespread “scope insensitivity.” Unconsciously, they would do a bait and switch, ducking the hard question that requires calibrating the probability to the time frame and tackling the easier question about the relative weight of the arguments for and against the regime’s downfall. The time frame would make no difference to the final answers, just as it made no difference whether 2,000, 20,000, or 200,000 migratory birds died. Mellers ran several studies and found that, exactly as Kahneman expected, the vast majority
+of forecasters were scope insensitive. Regular forecasters said there was a 40% chance Assad’s regime would fall over three months and a 41% chance it would fall over six months. But the superforecasters did much better: They put the probability of Assad’s fall at 15% over three months and 24% over six months. That’s not perfect scope sensitivity (a tricky thing to define), but it was good enough to surprise Kahneman. If we bear in mind that no one was asked both the three- and six-month version of the question, that’s quite an accomplishment. It suggests that the superforecasters not only paid attention to the time frame in the question but also thought about other possible time frames—and thereby shook off a hard-to-shake bias. I wish I could take credit for that.

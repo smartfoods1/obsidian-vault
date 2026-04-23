@@ -1,0 +1,18 @@
+---
+date: '2026-04-22'
+type: resource
+tags:
+  - libro
+  - superforecasting
+  - capitulo-09
+  - forecasting
+  - decision-making
+source: 'Superforecasting Cap 09: Superteams (parte 6/11)'
+status: activo
+---
+# Superforecasting — Superteams (parte 6/11)
+
+We gave them more guidance about how high-performance teams function and created special forums to help them communicate online. The teams did not meet face-to-face, which had its own pluses and minuses. On the minus side, it’s easier to disregard people we have never met. It could even foster conflict. Look at how quickly discussion on the Internet can degenerate into poisonous harangues. On the plus side, distance could make it easier to manage disputes and maintain a critical perspective. Joining a team for the first time, superforecasters like Elaine
+Rich had more immediate concerns. “I was pretty intimidated by my team,” she told me. Elaine lives in Washington, DC, and works as a pharmacist at the Walter Reed Medical Center. Some of the people on her team “announced huge, impressive credentials,” she recalled. “And I had no credentials.” At first she stayed quiet, making forecasts but rarely venturing opinions. It wasn’t only that her teammates had credentials and confidence. She found it difficult to question the views of teammates who were, after all, strangers. People take things differently. What one person would consider a helpful inquiry another might take as an aggressive criticism. And some of the questions touched on issues many people feel passionately about, so talking about them felt like walking through a minefield. The Arafat-polonium discussion was the worst. “There was a lot of tension around that,” Elaine said. “It was almost a taboo question.”
+“There was a lot of what I’ll call dancing around,” recalled Marty Rosenthal of his first year on a team. People would disagree with someone’s assessment, and want to test it, but they were too afraid of giving offense to just come out and say what they were thinking. So they would “couch it in all these careful words,” circling around, hoping the point would be made without their having to make it. Experience helped. Seeing this “dancing around,” people realized that excessive politeness was hindering the critical examination of views, so they made special efforts to assure others that criticism was welcome. “Everybody has said, ‘I want push-back from you if you see something I don’t,’ ” said Rosenthal. That made a difference. So did offering thanks for constructive criticism. Gradually, the dancing around diminished. Research on teams often assumes they have leaders and norms and focuses on ensuring these don’t hinder performance. The usual solutions are those the Kennedy administration implemented after the Bay of Pigs invasion—bring in outsiders, suspend hierarchy, and keep the leader’s views under wraps. There’s also the “premortem,”
+in which the team is told to assume a course of action has failed and to explain why—which makes team members feel safe to express doubts they may have about the leader’s plan. But the superteams did not start with leaders and norms, which created other challenges. Marty Rosenthal is semiretired now, but for decades he was a management consultant who specialized in building teams. Doing that with no organizational structure is a challenge, he knew, and doing that without meeting face-to-face is tougher still. Someone could step forward and start giving directions, but among strangers that can backfire. “I saw the gaps in how we were forming up as a team, wanted to address some of that, but also didn’t want to be seen as, you know, taking over,” he said. “And so a lot of what I did was what I think of as leading from behind.

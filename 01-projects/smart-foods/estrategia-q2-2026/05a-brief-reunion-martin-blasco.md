@@ -1,22 +1,22 @@
 ---
-title: Brief — Reunión con Matías Martín Blasco (biotech validation)
+title: Brief — Reunión con Martín Blasco (biotech validation)
 date: 2026-04-24
 type: brief-reunion
-tags: [biotech, fermentacion-sumergida, due-diligence, santiago-soriano, matias-martin-blasco, caso-critico]
+tags: [biotech, fermentacion-sumergida, due-diligence, santiago-soriano, martin-blasco, caso-critico]
 status: borrador
 caso_padre: 5/10
 relacionado: [[05-pivot-santiago]]
 ---
 
-# Brief — Reunión con Matías Martín Blasco
+# Brief — Reunión con Martín Blasco
 
-> **Importancia:** esta reunión es el **gate técnico** que decide si rama A (SF + biotech integrado) sigue viva. Si Matías no valida el proceso, activás trigger A→C del [[05-pivot-santiago|Caso 5]]. Preparala como due diligence, no como charla exploratoria.
+> **Importancia:** esta reunión es el **gate técnico** que decide si rama A (SF + biotech integrado) sigue viva. Si Martín no valida el proceso, activás trigger A→C del [[05-pivot-santiago|Caso 5]]. Preparala como due diligence, no como charla exploratoria.
 
 ---
 
 ## 0. Perfil del interlocutor (actualizado 2026-04-24 con research público)
 
-**Dr. Martín Blasco** (nota: "Martín", no "Matías Martín" — puede ser que Santiago te lo dijo en voz y escuchaste Matías; **verificá con Santiago el nombre correcto antes de ir**).
+**Dr. Martín Blasco** (nombre confirmado 2026-04-24).
 
 - **Formación:** Doctor en Biología Molecular y Biotecnología.
 - **Institución principal actual:** INTI — Departamento Bioprocesos / Biotecnología. Mail: mblasco@inti.gob.ar.
@@ -45,7 +45,6 @@ relacionado: [[05-pivot-santiago]]
 5. **Señal positiva:** coordinador de Red TEZ = está metido en la comunidad enzimática/bioprocesos argentina. Abre puertas.
 
 ### Antes de ir, confirmá con Santiago
-- [ ] ¿Se llama Matías Martín Blasco o Martín Blasco? (cambiá todos los docs si corresponde).
 - [ ] ¿La propuesta suya es **extractos medicinales SmF** o **micoproteína alimentaria**? Si Santiago no lo tiene claro, vos menos.
 - [ ] ¿Martín trabajó alguna vez con Reishi, Melena de León, Tremella, Maitake o Shiitake específicamente? ¿Papers, consultoría, tesis dirigida?
 - [ ] ¿Tiene o planea spin-off/empresa propia? ¿Relación formal con INTI/CONICET respecto a esto?
@@ -70,8 +69,7 @@ Si salís con estas 3, la reunión fue productiva, independientemente del result
 - **One-pager Smart Foods** (2 caras A4): producto, canales, revenue trailing 12m, certificaciones actuales, visión 36m.
 - **Etiquetas técnicas de los 4 extractos actuales**: las claims actuales textuales (30% beta-glucanos, doble extracción, 100% cuerpo fructífero, species, lote, ANMAT).
 - **Preguntas impresas** (este brief, las secciones 3 y 4).
-- **NDA simple** firmado por vos, listo para que él firme si acepta (template mutuo, 1 página, 3 años).
-- **Pregunta para Santiago antes de entrar:** "¿qué temas son sensibles para Matías que debo evitar tocar directo?".
+- **Pregunta para Santiago antes de entrar:** "¿qué temas son sensibles para Martín que debo evitar tocar directo?".
 
 ---
 
@@ -213,7 +211,7 @@ Activar alarma si:
 - **Sin mención a patentes específicas** o FTO análisis.
 - **Minimiza el tema de IP institucional con INTI/CONICET.** No se arregla solo — define si el moat es tuyo o compartido.
 - **Push por planta propia de entrada** sin ofrecer contract de servicios via INTI como primera etapa barata.
-- **Resistencia a NDA** o a poner cosas por escrito.
+- **Resistencia a poner cosas por escrito** cuando avancemos (post-reunión, no en esta).
 - **Descarta regulatorio como "eso se arregla"** — ANMAT no se arregla solo.
 - **Menciona "secreto del strain"** pero no lo documenta para IP de la empresa.
 - **Personalidad dominante** que parece que quiere controlar el proyecto más que colaborar con vos y Santiago.
@@ -245,11 +243,11 @@ Al salir, clasificá la reunión con este checklist honestamente (sin ilusión):
 
 ## 7. Qué NO decir / no comprometer en esta reunión
 
-- **NO firmes nada más allá de NDA mutuo.** Nada de term sheet, LOI, compromiso de equity, ticket de consultoría por adelantado.
+- **NO firmes nada.** Nada de term sheet, LOI, compromiso de equity, ticket de consultoría por adelantado. Esta primera reunión es exploratoria: salís a pensar, no a comprometerte.
 - **NO prometas runway** ("tenemos capital para esto"). No lo tenés cerrado.
 - **NO reveles números internos sensibles** (revenue exacto, margen, CAC). One-pager con rangos suficientes.
 - **NO te comprometas a timeline** ("arrancamos mes que viene"). Salís a procesarlo.
-- **NO hables mal de Santiago delante de Matías.** Ellos son el paquete.
+- **NO hables mal de Santiago delante de Martín.** Ellos son el paquete.
 - **NO aceptes que vos pagás el setup del lab** sin due diligence completa. Esa decisión se toma después, con data de esta reunión + pitch v2.
 
 ---
@@ -258,18 +256,18 @@ Al salir, clasificá la reunión con este checklist honestamente (sin ilusión):
 
 ### Escenario "Validado" (5-6/6)
 - Día +1: nota de decisión firmada en `02-areas/decisiones/` actualizando [[05-pivot-santiago|Caso 5]].
-- Día +3: term sheet borrador para Santiago y Matías (roles, equity, vesting, exclusividad, dedicación, hitos, kill-switch).
+- Día +3: term sheet borrador para Santiago y Martín (roles, equity, vesting, exclusividad, dedicación, hitos, kill-switch).
 - Día +7: pitch v2 actualizado con biotech como pilar ([[03-pitch-inversores|Caso 3]]).
 - Día +14: primer contacto con fondos deeptech LATAM (SF500, Draper Cygnus, Cites, Alaya).
 
 ### Escenario "Parcial" (3-4/6)
 - Día +1: listar los criterios no validados con razón específica.
 - Día +3: buscar external advisor (alguien de IBYME, Bioceres, o consultor biotech LATAM) para segunda opinión.
-- Día +14: segunda reunión con Matías con agenda específica sobre los gaps.
+- Día +14: segunda reunión con Martín con agenda específica sobre los gaps.
 
 ### Escenario "No validado" (≤2/6)
 - Día +1: escribir decisión de activar trigger A→C en [[05-pivot-santiago|Caso 5]].
-- Día +3: agradecimiento a Santiago y Matías, dejando puerta abierta.
+- Día +3: agradecimiento a Santiago y Martín, dejando puerta abierta.
 - Día +7: pitch v2 reescrito sin pilar biotech (narrativa brand + comunidad + B-Corp + unit economics sólidas).
 - Día +14: evaluar si Santiago igual entra como advisor de ingredientes/QA (no moat, pero agrega credibilidad).
 
@@ -280,7 +278,7 @@ Al salir, clasificá la reunión con este checklist honestamente (sin ilusión):
 Al salir, **antes de olvidarte**, escribí:
 
 ```markdown
-# Reunión Matías Martín Blasco — [fecha]
+# Reunión Martín Blasco — [fecha]
 
 ## Clasificación: VALIDADO / PARCIAL / NO VALIDADO
 
@@ -294,7 +292,7 @@ Al salir, **antes de olvidarte**, escribí:
 ## Red flags observados
 - ...
 
-## Matías como persona — mi lectura
+## Martín como persona — mi lectura
 - ...
 
 ## Santiago en la reunión — cómo se comportó
@@ -307,7 +305,7 @@ Al salir, **antes de olvidarte**, escribí:
 - ...
 ```
 
-Guardarlo en `/Users/specialandres/obsidian-vault/01-projects/smart-foods/estrategia-q2-2026/05b-postmortem-reunion-matias.md`.
+Guardarlo en `/Users/specialandres/obsidian-vault/01-projects/smart-foods/estrategia-q2-2026/05b-postmortem-reunion-martin.md`.
 
 ---
 

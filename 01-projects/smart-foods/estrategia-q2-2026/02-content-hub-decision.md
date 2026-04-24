@@ -29,7 +29,7 @@ Clasificación honesta de frentes Q2:
 | Frente | Clasificación | Ventana de oportunidad | Costo si no hago |
 |---|---|---|---|
 | Cerrar ronda Elian/Matías | **Crítico** | Cierra en 60-90 días o se enfría | Runway apretado, posible pivot forzado |
-| Validar biotech Santiago | **Crítico** | Semana que viene reunión con Matías M. Blasco | Pierdo potencial moat propietario |
+| Validar biotech Santiago | **Crítico** | Semana que viene reunión con Martín Blasco | Pierdo potencial moat propietario |
 | Beachhead Smart Foods | **Importante** | Q2-Q3 2026 | Sigo en chasm sin market leader |
 | Content Hub SaaS | **Deseable** | Abierta, no vence | Oportunidad postergada, no cancelada |
 | Specialandres content | **Deseable** | Abierta | Branding personal lento |

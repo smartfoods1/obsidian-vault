@@ -49,7 +49,7 @@ Definir ANTES de los datos, no después:
 
 - **Trigger A→C (mantener Smart Foods, sin biotech):**
   - Santiago no se compromete como co-founder (solo quiere consultoría), Y
-  - Matías Martín Blasco no valida proceso técnico la semana que viene.
+  - Martín Blasco no valida proceso técnico la semana que viene.
 
 - **Trigger C→A (volver a biotech más adelante):**
   - Smart Foods llega a runway positivo con modelo actual, Y
@@ -65,7 +65,7 @@ Razones:
 - Santiago ya mostró disposición a colaborar incluso con hipótesis de "nueva startup" — señal positiva.
 
 **Plan 30 días:**
-- Semana 1: reunión con Matías Martín Blasco. Output: ¿proceso viable técnicamente? ¿cuánto I+D hace falta? ¿qué IP es defendible?
+- Semana 1: reunión con Martín Blasco. Output: ¿proceso viable técnicamente? ¿cuánto I+D hace falta? ¿qué IP es defendible?
 - Semana 2: term sheet draft con Santiago (rol, equity, vesting, exclusividad). No lo dejes verbal.
 - Semana 3-4: actualizar pitch v2 con biotech (ver [[03-pitch-inversores|Caso 3]]), probar con Elian + 3 fondos nuevos.
 
@@ -78,7 +78,7 @@ Si a los 45 días no hay term sheet de nadie + Santiago disponible full-time →
 - [ ] Si activás B, ¿estás dispuesto a comunicarlo a Elian/Matías como "pauso Smart Foods" o lo manejás como side-hustle hasta que sea imposible disimular?
 
 ## Próxima acción
-- [ ] **Esta semana:** confirmar reunión con Matías Martín Blasco. Preparar las 5 preguntas técnicas clave (te ayudo con el brief si me pedís).
+- [ ] **Esta semana:** confirmar reunión con Martín Blasco. Preparar las 5 preguntas técnicas clave (te ayudo con el brief si me pedís).
 - [ ] **Esta semana:** hacer esta tabla tuya con tus propios P10/P50/P90 y escribirla acá.
 - [ ] **Día +14:** term sheet borrador con Santiago.
 - [ ] **Día +45:** decisión formal A / B / C con documento firmado.

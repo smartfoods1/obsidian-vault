@@ -47,7 +47,7 @@ status: activo
 
 ### Semana 1 (hoy — 1 mayo)
 - Caso 7 — activar protocolo deep work mañana (no negociable)
-- Caso 5 — preparar reunión con Matías Martín Blasco
+- Caso 5 — preparar reunión con Martín Blasco
 - Caso 2 — decidir pausa Content Hub (30 min de decisión)
 - Caso 1 — escribir quiénes son las 10 clientas a entrevistar
 

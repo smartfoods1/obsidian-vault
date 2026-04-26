@@ -520,5 +520,76 @@ Cuando crees el form WaitList WA en Klaviyo UI, configurar el "Add to list" targ
 ## Próximos pasos (sesión siguiente)
 
 - Si Andrés activa flow v2: monitorear primeras 48h y ajustar
-- Implementar bundle Shopify (puede requerir Shopify Scripts o Discount API)
-- Auditar Klaviyo Flows en general (otros flows que estén live con bugs similares)
+- Implementar bundle Shopify (script listo abajo)
+- Hallazgos del audit Klaviyo (ver Anexo C)
+
+---
+
+## Anexo A — Audit Klaviyo flows (2026-04-26)
+
+Audit automático de los 6 flows en cuenta. Hallazgos extra:
+
+| Flow | Issue | Acción sugerida |
+|---|---|---|
+| Bienvenida QUIZ (SnyXuf) | subject "Email n.º 4 Subject" en producción | Pausar UgXAZD (deprecated cuando flow v2 activa) |
+| Bienvenida QUIZ (SnyXuf) | 4/5 emails sin preview text | Flow v2 lo soluciona (preview obligatorio en cada email) |
+| Abandoned Checkout (TzJxaD) | Recupero 1 + Segundo recupero sin preview text | Agregar preview en Klaviyo UI |
+| Order Confirmation (XaAibB) | Sin preview text | Agregar preview |
+| recupero inactivos (WbjFmS) | En draft hace 2 meses | Decidir si activar o archivar |
+
+**Preview text best practice**: 50-100 caracteres, complementa el subject (no lo repite). Aumenta open rate típicamente +5-15%.
+
+---
+
+## Anexo B — Script Shopify para coupon BUNDLE_IMMUNE_10
+
+> Crea un Price Rule + Discount Code en Shopify que aplica 10% off cuando ambos productos (Immune Boost extracto + Café Funcional Full Blend) están en el cart. Requiere `SHOPIFY_TOKEN` con scope `write_price_rules` y `write_discounts`.
+
+```python
+import json, os, requests, datetime
+shop = os.environ["SHOPIFY_SHOP"]
+token = os.environ["SHOPIFY_TOKEN"]
+api_v = os.environ.get("SHOPIFY_API_VERSION", "2026-01")
+H = {"X-Shopify-Access-Token": token, "Content-Type": "application/json"}
+
+# Resolve product IDs
+def get_product_id(handle):
+    r = requests.get(f"https://{shop}/admin/api/{api_v}/products.json?handle={handle}&fields=id", headers=H)
+    return r.json().get("products",[{}])[0].get("id")
+
+immune_id = get_product_id("immune-boost-extracto-en-polvo-con-adaptogenos")
+cafe_id   = get_product_id("immune-boost-cafe-funcional-molido-con-hongos-adaptogenos-para-espresso-e-italiana-y-capsulas-recargables")
+
+# Create price rule
+rule_body = {"price_rule": {
+    "title": "BUNDLE_IMMUNE_10",
+    "target_type": "line_item",
+    "target_selection": "entitled",
+    "allocation_method": "across",
+    "value_type": "percentage",
+    "value": "-10.0",
+    "customer_selection": "all",
+    "starts_at": datetime.datetime.utcnow().isoformat() + "Z",
+    "entitled_product_ids": [immune_id, cafe_id],
+    "prerequisite_product_ids": [immune_id, cafe_id],  # both required in cart
+    "allocation_limit": 1,
+}}
+r = requests.post(f"https://{shop}/admin/api/{api_v}/price_rules.json", headers=H, json=rule_body)
+rule = r.json().get("price_rule",{})
+print("Price rule:", rule.get("id"))
+
+# Create discount code
+code_body = {"discount_code": {"code": "BUNDLE_IMMUNE_10"}}
+r2 = requests.post(f"https://{shop}/admin/api/{api_v}/price_rules/{rule['id']}/discount_codes.json", headers=H, json=code_body)
+print("Discount code:", r2.json())
+```
+
+**Validar después**: cart con Immune + Café + aplicar BUNDLE_IMMUNE_10 → debería dar 10% off en ambos.
+
+---
+
+## Anexo C — IDs y referencias creados esta sesión
+
+| Recurso | ID | URL Klaviyo |
+|---|---|---|
+| Lista WaitList WA — Quiz | `W4qVEs` | https://www.klaviyo.com/lists/W4qVEs |

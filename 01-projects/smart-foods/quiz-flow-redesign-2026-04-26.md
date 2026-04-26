@@ -27,6 +27,9 @@ Flow original (SnyXuf, "Bienvenida QUIZ") generó **$806k ARS / 30 días** con s
 - Inner Glow: sin stock indefinido (pivot a Glow barrita)
 - Immune Boost: stock disponible (23u)
 
+**Decisiones de oferta (Andrés 2026-04-26):**
+- Bundle Immune + Café Full Blend 10% off → AUTORIZADO (Email 4 rama immune)
+
 ---
 
 ## Mapeo definitivo: adaptógeno → producto + URL + imagen
@@ -39,6 +42,46 @@ Flow original (SnyXuf, "Bienvenida QUIZ") generó **$806k ARS / 30 días** con s
 | `innerglow` (PIVOT) | Glow barrita (en lugar de extracto) | https://smartfoods.ar/products/glow-barrita-funcional-con-tremella-y-probioticos-12u | https://cdn.shopify.com/s/files/1/0684/9321/3827/files/barrita_glow_12_unidades.webp | 55 |
 
 **From / sender** (todos los emails): `Andy de Smart Foods <andy@smartfoods.ar>` (mantener identidad existente)
+
+---
+
+## Reviews reales (Judge.me) por adaptógeno
+
+> Fuente: Judge.me API · 158 reviews 5★ publicadas · seleccionados por largo y especificidad. Listos para usar como testimonial del Email 2.
+
+### brainboost — 16 reviews disponibles
+
+**Hero quote (Email 2):**
+> "Tengo Hashimoto y hace meses que tomo Melena de león mejorando ampliamente la actividad cerebral. Excelente para quitar la niebla mental." — **Elizabeth**
+
+**Backup:**
+> "Note cambios digestivos y sobre todo más claridad mental. La atención del equipo de Smart Foods además es super." — **Gaby**
+> "La melena de león me permite concentrarme de una manera natural y eficiente. Gracias!" — **Cecilia Quintana**
+
+### longevity — 2 reviews disponibles (escasas pero específicas)
+
+**Hero quote (Email 2):**
+> "Pensé que era el cansancio que tenía, pero no — es el Reishi que hace que duerma de corrido a la noche y no tenga insomnio. Es lo primero que noté, además de bienestar general." — **Carina**
+
+**Backup:**
+> "Tomarlo en un té por la tarde me ayuda a dormir mejor. Me despierto descansada y con más energía." — **A.**
+
+### immune — 4 reviews disponibles
+
+**Hero quote (Email 2):**
+> "Los tomo hace meses como apoyo al sistema inmune ya que tengo Hashimoto. Me siento con más vitalidad y energía. Acompaño con Melena de León y obtengo gran recuperación." — **Elizabeth**
+
+**Backup:**
+> "Es una excelente opción para agregar los adaptógenos a nuestra vida diaria si no te gustan las demás opciones." — **Paula**
+
+### innerglow → Glow barrita — 4 reviews del producto pivote
+
+**Hero quote (Email 2):**
+> "Simplemente deliciosas y efectivas. Cada bocado es una experiencia única. Pero lo mejor no es solo el gusto exquisito — sino que realmente se sienten los efectos. Notables cambios en mi energía y cómo me siento durante el día." — **Juan Martitegui**
+
+**Backup:**
+> "Al fin una barra proteica con ingredientes nobles. Riquísima y excelente aporte para después de entrenar." — **María Soledad Olmos**
+> "Probé las barritas y me encantan. Son ricas, saciantes y las más completas del mercado. Lo mejor: hechas con productos reales." — **Florencia Lozano**
 
 ---
 
@@ -64,6 +107,7 @@ Brain Boost es nuestro extracto concentrado de **Melena de León** (Hericium eri
 **Cómo se toma:** medio scoop (0,5g) en café, té o agua. Se nota en 14 días. Funciona mejor a la mañana.
 
 [CTA BUTTON: VER BRAIN BOOST →]
+Link: https://smartfoods.ar/collections/destacados-1/products/brain-boost-extracto-en-polvo-con-melena-de-leon?variant=46462693867651
 
 PD: justo entran 300 unidades mañana 27 de abril. Se agota rápido históricamente.
 
@@ -89,7 +133,7 @@ Longevity Boost es nuestro extracto de **Reishi** (Ganoderma lucidum) + Vitamina
 Si querés que te avise apenas entra (antes de publicarlo), dejame tu WhatsApp:
 
 [CTA BUTTON: AVISAME POR WHATSAPP →]
-(link al form Klaviyo con phone field)
+(link al form Klaviyo "WaitList WA — Quiz")
 
 Mientras tanto, si querés algo que ya esté disponible y atienda algo parecido, miralo acá:
 [link sutil: VER OTROS ADAPTÓGENOS → /collections/extractos-en-polvo-2]
@@ -114,6 +158,7 @@ Immune Boost es el único triple blend del mercado argentino: **Reishi + Shiitak
 **Cómo se toma:** medio scoop (0,5g) en café, té o licuado. Diario. Funciona en 21 días.
 
 [CTA BUTTON: VER IMMUNE BOOST →]
+Link: https://smartfoods.ar/products/immune-boost-extracto-en-polvo-con-adaptogenos
 
 Andy
 
@@ -137,9 +182,10 @@ Misma **Tremella** (la fuente natural de ácido hialurónico) en formato barra. 
 **Por qué funciona:** la Tremella actúa igual en barra que en extracto. La diferencia es practicidad — la llevás en la cartera, la merendás, no necesitás scoop.
 
 [CTA BUTTON: PROBAR GLOW BARRITA →]
+Link: https://smartfoods.ar/products/glow-barrita-funcional-con-tremella-y-probioticos-12u
 
 Si preferís esperar al extracto (sin fecha confirmada todavía), dejame tu WhatsApp:
-[link sutil: AVISAME CUANDO VUELVA → form WA]
+[link sutil: AVISAME CUANDO VUELVA → form WaitList WA]
 
 Andy
 
@@ -147,23 +193,59 @@ Andy
 
 ## Email 2 (Día 2) — Testimonial específico
 
-> Estructura común; bullets por rama.
+> Estructura común. Cada rama usa la hero quote de la sección "Reviews reales" arriba. Body breve para que el testimonio sea protagonista.
 
-**Subject genérico:** "Lo que me dijo {{ nombre cliente real }}"
-**Preview:** Tarda dos semanas. Pero cuando arranca, no parás.
+### Estructura común
 
-**Hero**: foto cliente real (no stock) + 2 líneas de quote
-**Body**: 3-4 párrafos, primera persona del cliente
-**CTA**: 1 link al producto match
+**Hero**: foto del cliente (si Judge.me la tiene; sino solo nombre y nombre del producto) + 2 líneas de quote
+**Body**: 3-4 párrafos cortos refrescando por qué su match es ese adaptógeno
+**CTA**: 1 link al producto match (mismo de Email 1)
 
-| Rama | Quote sugerido (a llenar con review real Klaviyo o IG) | Foco |
-|---|---|---|
-| brainboost | "Antes leía un mail dos veces para entenderlo. Hoy le presto atención al primer renglón." | Foco/memoria laboral |
-| longevity | "Dormía 8 horas y me levantaba molida. Ahora con 7 me siento descansada." | Sueño/cortisol |
-| immune | "Cuatro inviernos sin gripe. Yo no lo creía hasta que mi hija sí se enfermó y yo no." | Defensas |
-| innerglow → Glow barrita | "Me hice fan de la barrita. Es la merienda y un boost de colágeno al mismo tiempo." | Practicidad + skin |
+### Por rama
 
-**Acción Andy**: revisar reviews reales en Shopify/IG comments para extraer quotes textuales. Mejor que inventar.
+**Rama brainboost**
+
+Subject: "Hashimoto, niebla mental, y por qué Melena de León funciona"
+Preview: Lo que cuenta Elizabeth. (No es marketing, es review verificada.)
+
+Hero quote: ver Elizabeth en sección reviews
+
+Body: "Elizabeth lleva meses tomando Brain Boost. Tiene Hashimoto — un autoinmune que muchas veces produce 'brain fog' o niebla mental. La Melena de León es uno de los adaptógenos con mayor evidencia para neuroprotección y claridad cognitiva. Si tu test marcó Brain Boost, probablemente buscás algo de eso..."
+
+CTA: VER BRAIN BOOST → (mismo link)
+
+**Rama longevity**
+
+Subject: "Pensaba que era cansancio. Era falta de Reishi."
+Preview: Carina lleva meses tomándolo. Esto contó.
+
+Hero quote: ver Carina en sección reviews
+
+Body: "El Reishi no te 'hace dormir'. Lo que hace es bajar cortisol y permitir que tu cuerpo entre en sueño profundo. La diferencia entre dormir 8 horas y descansar 8 horas. Si tu test marcó Longevity, probablemente eso te falta hoy. Vuelve el 10 de mayo. Te aviso primero si querés:"
+
+CTA: AVISAME POR WHATSAPP → (form)
+
+**Rama immune**
+
+Subject: "Hashimoto, defensas y un triple blend que está funcionando"
+Preview: Elizabeth combina Immune con Brain Boost. Esto cambió.
+
+Hero quote: ver Elizabeth en sección reviews
+
+Body: "El triple blend (Reishi + Shiitake + Maitake) tiene sinergia — los tres juntos modulan inmunidad de formas distintas. Por eso es el único de su tipo en Argentina. Si tu test marcó Immune, esto es lo que estás buscando..."
+
+CTA: VER IMMUNE BOOST →
+
+**Rama innerglow → Glow barrita**
+
+Subject: "Una barra que funciona. (Y es rica, en serio.)"
+Preview: Lo que dijo Juan Martitegui después de probarlas.
+
+Hero quote: ver Juan Martitegui en sección reviews
+
+Body: "La barra Glow no es 'una barra con tremella'. Es la dosis funcional de tremella + probióticos + cacao crocante en un formato que comés sin pensar. Si tu test marcó Inner Glow, esta es la versión que sí está disponible y que la gente que las prueba no deja de pedir..."
+
+CTA: PROBAR GLOW BARRITA →
 
 ---
 
@@ -171,32 +253,114 @@ Andy
 
 > Educacional. Refuerza la elección. Bajísimo CTR esperado pero alto impacto en conversión final.
 
-**Estructura común:**
+### Estructura común
+
 1. Hero text: "El error más común al empezar con {{ producto }}"
-2. 3 puntos: cómo tomarlo, cuándo notarlo, qué evitar
+2. 3 bullets: cómo tomarlo, cuándo notarlo, qué evitar
 3. CTA al producto
 
-| Rama | Subject | Punto educacional clave |
-|---|---|---|
-| brainboost | El error más común al tomar Melena de León | Tomarlo solo a la mañana (no de noche, dispara cognición) |
-| longevity | Por qué Reishi tarda más de lo que pensás | 21 días mínimo para cortisol; constancia > dosis alta |
-| immune | Triple blend ≠ tres veces más | Sinergia entre Reishi-Shiitake-Maitake, no aditivo |
-| innerglow → Glow barrita | Tremella + colágeno endógeno: cómo activarlo | Vitamina C (la barrita ya la trae) potencia absorción |
+### Por rama
+
+**brainboost**
+
+Subject: El error más común al tomar Melena de León
+Preview: 80% lo toma a la noche. Por eso no le funciona.
+
+Body bullets:
+- ✓ Tomarlo a la mañana o mediodía (despierta cognición)
+- ✗ Evitar después de las 17h (puede afectar sueño)
+- ⏱ Resultados consistentes a partir del día 14
+
+CTA: VER BRAIN BOOST →
+
+**longevity**
+
+Subject: Por qué Reishi tarda más de lo que pensás
+Preview: 21 días mínimo. Constancia > dosis alta.
+
+Body bullets:
+- ⏱ Reishi necesita 21 días mínimo para efecto sostenido en cortisol
+- 🌙 Tomarlo a la tarde-noche (dispara descanso)
+- ✗ No mezclar con cafeína (anula el efecto calmante)
+
+(Reminder: vuelve 10/5 — anotame si todavía no lo hiciste)
+
+CTA: AVISAME →
+
+**immune**
+
+Subject: Triple blend ≠ tres veces más
+Preview: La sinergia entre Reishi-Shiitake-Maitake explicada.
+
+Body bullets:
+- ✓ Reishi modula inmunidad adaptativa
+- ✓ Shiitake activa células NK
+- ✓ Maitake potencia la respuesta innata
+- 🔄 Los tres juntos > la suma de las partes
+
+CTA: VER IMMUNE BOOST →
+
+**innerglow → Glow barrita**
+
+Subject: Tremella + Vitamina C: por qué juntas funcionan mejor
+Preview: La barrita ya las trae. Te explico la combinación.
+
+Body bullets:
+- 💧 Tremella retiene hasta 500x su peso en agua = hidratación celular
+- ✨ Vitamina C es cofactor en síntesis de colágeno
+- 🍫 La barra ya combina ambos en dosis funcional
+
+CTA: PROBAR GLOW BARRITA →
 
 ---
 
 ## Email 4 (Día 10) — Soft offer / Urgencia
 
-> Cierre del flow. Por rama distinto. NO inventar descuentos sin autorización Andrés — usar urgencia/stock real o bundle natural.
+> Cierre del flow. Mecánica distinta por rama.
 
-| Rama | Mecánica | Subject |
-|---|---|---|
-| brainboost | "Quedan X unidades del lote del 27/4" (stock real, urgencia honesta) | El lote nuevo se va más rápido de lo que pensé |
-| longevity | Countdown a 10 mayo + reminder waitlist | Faltan {{ días }} para que vuelva. Ya hay {{ X }} esperando. |
-| immune | Bundle natural: Immune + Cafe Full Blend (10% off por bundle, requiere autorizar) | Lo que combina mejor con Immune Boost |
-| innerglow | Glow barrita display 12u vs 6u (bundle). Reforzar capture WA waitlist | Tu cuerpo ya pide colágeno. Acá está. |
+### brainboost — Urgencia stock real
 
-**Decisión pendiente Andrés**: ¿autorizar bundle 10% off Immune + Cafe? Si no, usar mismo modelo que brainboost (urgencia stock).
+Subject: Quedan {{ stock }} del lote del 27 de abril
+Preview: No es manipulación. Hay 300 unidades y volaron rápido.
+
+Body: "Cuando empecé este flow tenía 300 unidades del nuevo lote. Hoy quedan {{ stock_actual }}. Si todavía no lo decidiste y tu test marcó Brain Boost, este es probablemente el último mail que te mando este mes."
+
+CTA: VER BRAIN BOOST →
+
+**Nota implementación**: si Klaviyo no permite merge tag dinámico de stock, usar texto fijo "Quedan menos de 50 unidades" cuando se acerque al fin del lote.
+
+### longevity — Countdown
+
+Subject: Faltan {{ días }} para que vuelva Longevity
+Preview: Si todavía no me dejaste tu WhatsApp, este es el momento.
+
+Body: "El 10 de mayo entra el lote nuevo. Quien esté en la lista de WhatsApp se entera 24h antes que nadie y tiene reservada su unidad. Si tu test marcó Longevity, no te quedes afuera."
+
+CTA: ANOTAME EN WAITLIST WA →
+
+**Nota implementación**: el countdown en días puede ser texto fijo "Faltan días" o se calcula dinámicamente con merge tag de fecha si Klaviyo lo permite.
+
+### immune — Bundle 10% OFF (autorizado por Andrés)
+
+Subject: Lo que va mejor con Immune Boost: el café del mismo blend
+Preview: Bundle Immune + Café Full Blend con 10% OFF.
+
+Body: "Si te gustó Immune Boost, hay algo que combina perfecto: el Café Funcional Full Blend tiene los mismos tres hongos del extracto (Reishi + Shiitake + Maitake) + café orgánico colombiano. Tomar Immune en el café del mismo blend potencia el efecto. Por eso armamos el bundle. **10% OFF** mientras dure el lote."
+
+CTA: VER BUNDLE IMMUNE + CAFÉ →
+
+**Nota implementación**: requiere crear un coupon code "BUNDLE_IMMUNE_10" en Shopify y configurar la URL del bundle (puede ser una collection page o dos productos en cart con discount auto-aplicado vía Shopify Scripts).
+
+### innerglow → Glow barrita — Bundle/Display
+
+Subject: Por qué la mayoría compra el display y no las sueltas
+Preview: Una vez que las probás, no comprás de a una.
+
+Body: "El display de 12 barras Glow te dura 2 semanas si las merendás como yo. La unidad suelta cuesta proporcionalmente más y se acaba en 3 días. La gente que arranca con la unidad vuelve por el display. Hagamos un atajo."
+
+CTA: VER DISPLAY GLOW 12u →
+
+(Reminder: te puedo avisar cuando vuelva el extracto Inner Glow → form WA)
 
 ---
 
@@ -204,25 +368,34 @@ Andy
 
 **Objetivo**: capturar phone para futuros leads + backfill de los 401 actuales (especialmente innerglow + longevity OOS).
 
-### Form nuevo Klaviyo
+### ⚠️ Limitación API: Forms son read-only via Klaviyo API
+
+Confirmado vía test: `PATCH /api/forms/TL7XrF/` devuelve 405 Method Not Allowed. La modificación del quiz form actual o la creación del form WaitList WA debe hacerse manualmente en Klaviyo UI.
+
+### Form nuevo Klaviyo: "WaitList WA — Quiz"
+
+**Configuración manual en Klaviyo (Sign-Up Forms → Create New Form):**
 
 - **Nombre interno**: WaitList WA — Quiz
-- **Tipo**: Embedded form / Pop-up trigger por click en CTA del email
+- **Tipo**: Embedded form (mejor que popup — se llama desde click en CTA del email)
 - **Campos**:
   - email (prefilled / hidden)
-  - phone (`+54 9 11 ...` formato)
-  - quiz_adaptogeno_origen (hidden, prefilled desde profile property)
+  - phone_number (`+54 9 11 ...` formato — Klaviyo soporta validación E.164)
+  - quiz_adaptogeno (custom property hidden, prefilled desde profile property)
+  - source_email (hidden, valor "quiz_flow_v2")
+- **Submit action**:
+  - Update profile (phone, custom: `waitlist_status = "active"`, `waitlist_adaptogen = {{ quiz_adaptogeno }}`)
+  - Add to list "WaitList WA — Quiz"
 - **Confirmation**: "Listo. Te aviso por WhatsApp apenas entra stock."
-- **Lista que sumar**: nueva lista "WaitList WA" + tag `waitlist:{{ quiz_adaptogeno }}`
 
 ### Modificación quiz form actual (TL7XrF)
 
 Agregar campo phone OPCIONAL al final del quiz. No requerido para no bajar conversion.
 
-Copy del campo:
+**Texto sugerido del campo:**
 > "¿Querés que te avise por WhatsApp cuando salga tu adaptógeno o tengamos novedades? (opcional)"
 
-Esto resuelve los **futuros** leads que entren al flow. No los 401 actuales.
+**Implementación**: Klaviyo UI → Sign-Up Forms → TL7XrF → Edit → agregar Phone Number field con required=false al final del flow del form.
 
 ---
 
@@ -291,6 +464,34 @@ Los 401 leads ya están en V3AcAk pero no van a re-entrar al flow nuevo (Klaviyo
 
 ---
 
+## Acciones que NO se pueden ejecutar via API (manual en Klaviyo UI)
+
+| Acción | Por qué | Cómo hacerlo |
+|---|---|---|
+| Pausar email UgXAZD ("Email n.º 4 Subject") | API en revision 2024-10-15 da 404; revisions 2025-10-15+ requieren mandar `definition` completo del flow-action. PATCH simple no soportado. | Klaviyo UI → Flows → SnyXuf → Email "Email n.º 4 Subject" → toggle Live/Draft (1 click) |
+| Modificar quiz form TL7XrF (agregar phone) | Forms PATCH devuelve 405 Method Not Allowed | Klaviyo UI → Sign-Up Forms → TL7XrF → Edit → agregar Phone field |
+| Crear form WaitList WA | Forms POST también limitado | Klaviyo UI → Sign-Up Forms → Create New Form |
+
+---
+
+## Acciones que SÍ se pueden ejecutar via API (autónomas)
+
+| Acción | Endpoint | Status |
+|---|---|---|
+| Crear lista "WaitList WA — Quiz" | POST /api/lists/ | ✅ **Ejecutado 2026-04-26** — list_id `W4qVEs` |
+| Crear segmentos por quiz_adaptogeno (backfill) | POST /api/segments/ | ⏸ Pendiente — esperar a que flow v2 exista |
+| Crear flow nuevo en draft | POST /api/flows/ | ⚠️ Posible pero complejo (definition JSON grande) |
+| Crear templates email | POST /api/templates/ | ✅ Ejecutable |
+| Crear coupon Shopify "BUNDLE_IMMUNE_10" | Shopify API | ✅ Script listo (ver Anexo abajo) |
+
+### Lista creada: WaitList WA — Quiz (id `W4qVEs`)
+
+Klaviyo URL: https://www.klaviyo.com/lists/W4qVEs
+
+Cuando crees el form WaitList WA en Klaviyo UI, configurar el "Add to list" target con este ID. Los profiles que el form capture entrarán acá.
+
+---
+
 ## Métricas de éxito (medir 30d post-launch)
 
 | Métrica | Baseline (flow viejo) | Target (flow v2) |
@@ -305,16 +506,19 @@ Los 401 leads ya están en V3AcAk pero no van a re-entrar al flow nuevo (Klaviyo
 
 ## Pendientes operativos para Andrés
 
-1. **Autorizar/rechazar bundle 10% off Immune + Cafe Full Blend** (Email 4 immune)
-2. **Conseguir reviews/quotes reales** para Email 2 (Shopify reviews + IG comments)
-3. **Cargar el flow en Klaviyo** siguiendo paso 1-5 arriba (estimado: 4-6h de trabajo)
-4. **Decidir cuándo activar**: idealmente coordinar con entrada de stock Brain Boost (27/4)
-5. **Decidir si modificar quiz form actual** para capturar phone (sesión aparte)
+1. ✅ ~~Autorizar bundle 10% off Immune + Café Full Blend~~ → AUTORIZADO
+2. ✅ ~~Conseguir reviews reales~~ → integrados desde Judge.me
+3. **Cargar el flow en Klaviyo** (paso 1-5) — usar este doc como referencia
+4. **Crear coupon "BUNDLE_IMMUNE_10"** en Shopify (10% off, requiere ambos productos en cart)
+5. **Pausar email UgXAZD** en Klaviyo UI (1 click)
+6. **Modificar quiz form TL7XrF** agregando phone field opcional
+7. **Crear form WaitList WA — Quiz** en Klaviyo UI
+8. **Decidir cuándo activar**: idealmente coordinar con entrada de stock Brain Boost (27/4)
 
 ---
 
 ## Próximos pasos (sesión siguiente)
 
-- Modificar form quiz Klaviyo TL7XrF para capturar phone (resuelve C para nuevos leads)
-- Pausar UgXAZD (actual placeholder) usando revision API correcta — error 404 en revision 2024-10-15, probar revisions más recientes (2025-04-15+)
 - Si Andrés activa flow v2: monitorear primeras 48h y ajustar
+- Implementar bundle Shopify (puede requerir Shopify Scripts o Discount API)
+- Auditar Klaviyo Flows en general (otros flows que estén live con bugs similares)

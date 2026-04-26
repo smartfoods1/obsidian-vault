@@ -590,6 +590,49 @@ print("Discount code:", r2.json())
 
 ## Anexo C — IDs y referencias creados esta sesión
 
+### Lista
 | Recurso | ID | URL Klaviyo |
 |---|---|---|
-| Lista WaitList WA — Quiz | `W4qVEs` | https://www.klaviyo.com/lists/W4qVEs |
+| WaitList WA — Quiz | `W4qVEs` | https://www.klaviyo.com/lists/W4qVEs |
+
+### Templates HTML (16/16 creados via API)
+
+Todos visibles en Klaviyo → Email Templates → buscar `QUIZv2_*`. Cada uno se asigna en el flow Email node con "Assign existing template".
+
+| # | Rama | Email | Template ID | Subject |
+|---|---|---|---|---|
+| 01 | brainboost | E1 — Tu match | `RaNjbn` | Tu match es Brain Boost |
+| 02 | longevity | E1 — Tu match | `YkvRdi` | Tu match es Longevity Boost (vuelve el 10 de mayo) |
+| 03 | immune | E1 — Tu match | `VV4V6c` | Tu match es Immune Boost |
+| 04 | innerglow | E1 — Tu match | `RHc7sB` | Tu match es Inner Glow — y tengo algo bueno para vos |
+| 05 | brainboost | E2 — Testimonial | `X6tKY4` | Hashimoto, niebla mental, y por qué Melena de León funciona |
+| 06 | longevity | E2 — Testimonial | `SfzTHQ` | Pensaba que era cansancio. Era falta de Reishi. |
+| 07 | immune | E2 — Testimonial | `XCRyfh` | Hashimoto, defensas y un triple blend que está funcionando |
+| 08 | innerglow | E2 — Testimonial | `WZQvCE` | Una barra que funciona. (Y es rica, en serio.) |
+| 09 | brainboost | E3 — Educacional | `SMXFZ5` | El error más común al tomar Melena de León |
+| 10 | longevity | E3 — Educacional | `WnPt23` | Por qué Reishi tarda más de lo que pensás |
+| 11 | immune | E3 — Educacional | `Ybfkww` | Triple blend ≠ tres veces más |
+| 12 | innerglow | E3 — Educacional | `SaWDns` | Tremella + Vitamina C: por qué juntas funcionan mejor |
+| 13 | brainboost | E4 — Urgencia stock | `VKNqpq` | Quedan menos de las que pensé del lote del 27 de abril |
+| 14 | longevity | E4 — Countdown | `XyehTT` | Pocos días para que vuelva Longevity |
+| 15 | immune | E4 — Bundle 10% | `WiccED` | Lo que combina perfecto con Immune Boost |
+| 16 | innerglow | E4 — Display | `TfJdUU` | Por qué la mayoría compra el display y no las sueltas |
+
+### URL directa para editar cada template
+
+`https://www.klaviyo.com/email-templates/{TEMPLATE_ID}/edit`
+
+Ej: https://www.klaviyo.com/email-templates/RaNjbn/edit
+
+### Pendiente find-replace en 6 templates
+
+Antes de activar el flow, reemplazar `https://smartfoods.ar/pages/waitlist` por la URL real del form WaitList WA en estos 6 templates:
+
+- `YkvRdi` (longevity E1)
+- `RHc7sB` (innerglow E1)
+- `SfzTHQ` (longevity E2)
+- `WnPt23` (longevity E3)
+- `XyehTT` (longevity E4)
+- `TfJdUU` (innerglow E4)
+
+Si querés, en próxima sesión hago el find-replace via API una vez tengas la URL del form.

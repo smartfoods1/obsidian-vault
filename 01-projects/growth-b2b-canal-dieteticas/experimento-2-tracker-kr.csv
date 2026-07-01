@@ -1,0 +1,9 @@
+fecha,cliente,actividad,categoria,subtipo,minutos,notas
+2026-06-21,Korean Root,Llamada de cierre con la marca,VENTA,cierre_marca,30,ejemplo - borrar
+2026-06-21,Korean Root,Visita a dietetica para colocar producto,VENTA,colocacion_dietetica,45,ejemplo - borrar
+2026-06-21,Korean Root,Generacion de contenido del mes,DELIVERY,contenido,20,ejemplo - borrar (motor IA)
+2026-06-21,Korean Root,Prospeccion de dieteticas en Places,DELIVERY,prospeccion,15,ejemplo - borrar
+2026-06-21,Korean Root,Armado del reporte quincenal,DELIVERY,reporte,10,ejemplo - borrar
+2026-06-21,Korean Root,Negociacion de condiciones con dietetica,VENTA,negociacion,25,ejemplo - borrar
+2026-06-21,Korean Root,Mensajes de postventa / relacion,VENTA,relacion_postventa,15,ejemplo - borrar
+2026-06-21,Korean Root,Carga de datos en CRM,DELIVERY,carga_crm,10,ejemplo - borrar

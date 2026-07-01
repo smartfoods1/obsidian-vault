@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Brain Boost — Creator Outreach AR</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root {
+  --beige: #F1EADF;
+  --beige-dark: #D9D0B6;
+  --black: #282823;
+  --sage: #A0B8A0;
+  --forest: #4B6834;
+  --lime: #E0E938;
+  --gray: #6b6b66;
+  --line: rgba(40, 40, 35, 0.08);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--beige);
+  color: var(--black);
+  line-height: 1.5;
+  padding: 24px;
+}
+.wrap { max-width: 1280px; margin: 0 auto; }
+header { margin-bottom: 32px; }
+h1 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+.subtitle { font-size: 15px; color: var(--gray); margin-bottom: 20px; }
+.stats { display: flex; gap: 24px; flex-wrap: wrap; margin-bottom: 20px; }
+.stat {
+  background: white;
+  border-radius: 12px;
+  padding: 14px 18px;
+  border: 1px solid var(--line);
+}
+.stat .n { font-size: 24px; font-weight: 700; color: var(--forest); }
+.stat .l { font-size: 12px; color: var(--gray); text-transform: uppercase; letter-spacing: 0.05em; }
+.controls {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+  align-items: center;
+}
+.filter-pill {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+  user-select: none;
+}
+.filter-pill:hover { background: var(--beige-dark); }
+.filter-pill.active { background: var(--forest); color: white; border-color: var(--forest); }
+.search {
+  flex: 1;
+  min-width: 220px;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+  font-size: 14px;
+  font-family: inherit;
+}
+.sort-sel {
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  gap: 18px;
+}
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  transition: transform 0.15s, box-shadow 0.15s;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(40,40,35,0.06); }
+.card.contacted { opacity: 0.55; background: #f6f4ee; }
+.card-header { display: flex; align-items: flex-start; gap: 14px; }
+.avatar {
+  width: 48px; height: 48px;
+  border-radius: 50%;
+  background: var(--sage);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+.card-id { flex: 1; min-width: 0; }
+.username {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--forest);
+  text-decoration: none;
+}
+.username:hover { text-decoration: underline; }
+.fullname { font-size: 13px; color: var(--gray); margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tier-badge {
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.tier-A { background: var(--lime); color: var(--black); }
+.tier-B { background: #fff3a8; color: var(--black); }
+.tier-C { background: var(--beige-dark); color: var(--black); }
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  background: var(--beige);
+  padding: 12px;
+  border-radius: 10px;
+}
+.metric { text-align: center; }
+.metric .v { font-size: 16px; font-weight: 700; color: var(--black); }
+.metric .k { font-size: 10px; text-transform: uppercase; color: var(--gray); letter-spacing: 0.05em; }
+.tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.tag {
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  background: var(--beige);
+  color: var(--gray);
+}
+.tag.ar-yes { background: var(--sage); color: white; }
+.tag.ar-unclear { background: #ffd980; color: var(--black); }
+.tag.collab { background: var(--forest); color: white; }
+.reason {
+  font-size: 13px;
+  color: var(--gray);
+  font-style: italic;
+  border-left: 2px solid var(--sage);
+  padding-left: 10px;
+}
+.hook-block {
+  background: linear-gradient(135deg, #fafaf3, #f0eee0);
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px dashed var(--sage);
+}
+.hook-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--forest);
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.hook-text { font-size: 13px; line-height: 1.5; }
+.actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+.btn {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: white;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  text-decoration: none;
+  color: var(--black);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.15s;
+}
+.btn:hover { background: var(--beige); }
+.btn.primary { background: var(--forest); color: white; border-color: var(--forest); }
+.btn.primary:hover { background: var(--black); }
+.btn.active { background: var(--lime); border-color: var(--lime); }
+.compensation {
+  font-size: 12px;
+  color: var(--forest);
+  font-weight: 600;
+}
+.contact-row { font-size: 12px; color: var(--gray); display: flex; gap: 10px; flex-wrap: wrap; }
+.contact-row a { color: var(--forest); text-decoration: none; }
+.contact-row a:hover { text-decoration: underline; }
+.score-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  margin-top: 8px;
+  font-size: 11px;
+}
+.score-item {
+  text-align: center;
+  padding: 6px 4px;
+  background: var(--beige);
+  border-radius: 6px;
+}
+.score-item .sv { font-weight: 700; color: var(--forest); font-size: 14px; }
+.score-item .sk { color: var(--gray); text-transform: uppercase; font-size: 9px; letter-spacing: 0.05em; }
+.empty {
+  grid-column: 1/-1;
+  text-align: center;
+  padding: 48px;
+  color: var(--gray);
+  background: white;
+  border-radius: 12px;
+}
+.toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--black);
+  color: var(--lime);
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+  z-index: 100;
+}
+.toast.show { opacity: 1; }
+footer {
+  margin-top: 48px;
+  text-align: center;
+  color: var(--gray);
+  font-size: 12px;
+}
+@media (max-width: 600px) {
+  body { padding: 14px; }
+  h1 { font-size: 26px; }
+  .grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Brain Boost — Creator Outreach AR</h1>
+  <div class="subtitle">20 creators argentinos · productividad · biohacking · wellness mental · 2026-05-22</div>
+  <div class="stats">
+    <div class="stat"><div class="n">20</div><div class="l">Total</div></div>
+    <div class="stat"><div class="n">3</div><div class="l">Tier A</div></div>
+    <div class="stat"><div class="n">11</div><div class="l">Tier B</div></div>
+    <div class="stat"><div class="n">6</div><div class="l">Tier C</div></div>
+    <div class="stat"><div class="n">11</div><div class="l">AR confirmado</div></div>
+    <div class="stat"><div class="n">9</div><div class="l">AR verificar</div></div>
+    <div class="stat"><div class="n" id="stat-contacted">0</div><div class="l">Contactados</div></div>
+  </div>
+  <div class="controls">
+    <div class="filter-pill active" data-filter="all">Todos</div>
+    <div class="filter-pill" data-filter="A">Tier A · pago alto</div>
+    <div class="filter-pill" data-filter="B">Tier B · pago micro</div>
+    <div class="filter-pill" data-filter="C">Tier C · canje</div>
+    <div class="filter-pill" data-filter="ar-yes">AR ✓</div>
+    <div class="filter-pill" data-filter="ar-unclear">AR verificar</div>
+    <div class="filter-pill" data-filter="pending">Pendientes</div>
+    <input type="text" class="search" placeholder="Buscar por nombre, nicho o bio…" id="search">
+    <select class="sort-sel" id="sort">
+      <option value="fit">Sort: Fit ↓</option>
+      <option value="er">Sort: ER ↓</option>
+      <option value="followers">Sort: Followers ↓</option>
+      <option value="followers-asc">Sort: Followers ↑</option>
+    </select>
+  </div>
+</header>
+<div class="grid" id="grid"></div>
+<footer>
+  Smart Foods · Brain Boost outreach · estado se guarda en este browser (localStorage)
+</footer>
+</div>
+<div class="toast" id="toast"></div>
+<script>
+const LEADS = [{"tier": "A", "source": "phase2", "username": "maisondelaserenite", "ig_url": "https://instagram.com/maisondelaserenite", "full_name": "Maison de la Sérénité", "followers": 23656, "followers_fmt": "23.7K", "er": 5.71, "fit": 9, "niche_fit": 9, "audience_fit": 8, "tone_match": 9, "authenticity": 9, "niche": "wellness", "fit_reason": "Su enfoque en neurociencia, bienestar inteligente y soluciones profundas para profesionales se alinea perfectamente con Brain Boost.", "ar": "yes", "ar_evidence": "previous_hook uses 'hablás' (voseo)", "collab": "pago_alto", "comp": "$80-150K ARS + canje (3 productos)", "hook": "¡Hola! Nos encantó cómo hablás del 'bienestar que entra en una era más inteligente' y el rol de la neurociencia. Creemos que nuestro nootrópico Brain Boost, para foco y claridad mental sin estimulantes, podría interesarte mucho.", "email": "", "web": "http://maisondelaserenite.com/", "bio": "We design wellness experiences & strategy \nchoreographed for transformation, not trends.\n🌀 for people, brands & hospitality seeking depth over noise.", "initials": "MD"}, {"tier": "B", "source": "phase3", "username": "mariameliacocina", "ig_url": "https://instagram.com/mariameliacocina", "full_name": "Mariamelia Delgado", "followers": 1180, "followers_fmt": "1.2K", "er": 25.06, "fit": 9, "niche_fit": 9, "audience_fit": 8, "tone_match": 9, "authenticity": 10, "niche": "wellness", "fit_reason": "Su enfoque en mejorar la salud mental a través de la alimentación y la energía sostenida, con menciones directas al cerebro y el sistema nervioso, la hace un fit excelente para Brain Boost.", "ar": "yes", "ar_evidence": "Uso de 'divino' en biografía, común en Argentina.", "collab": "canje", "comp": "$30-60K ARS + canje (2 productos)", "hook": "¡Hola Mariamelia! Nos re copa tu enfoque de 'mejorar la salud mental comiendo divino' y cómo hablás de la energía sostenida para el cerebro. Creemos que Brain Boost, nuestro extracto de Melena de León, un nootrópico natural para foco, memoria y claridad mental, sería un complemento ideal para tu comunidad. ¡Imagináte potenciar esa energía con un nootrópico natural! El doypack de 30g está a $79K ARS. ¿Te gustaría probarlo y contarnos qué te parece?", "email": "", "web": "", "bio": "🤓 Mejora tu salud mental comiendo divino \n👩🏻‍🍳13 años cocinando para @somoshumanaa \n🍛Almuerzos \n🥘Creación de recetas y menús\n🥗Catering", "initials": "MD"}, {"tier": "A", "source": "phase1", "username": "mediozapallo", "ig_url": "https://instagram.com/mediozapallo", "full_name": "Martina Pamio | Nutrición", "followers": 18217, "followers_fmt": "18.2K", "er": 16.0, "fit": 8.5, "niche_fit": 7, "audience_fit": 8, "tone_match": 9, "authenticity": 10, "niche": "wellness", "fit_reason": "Su enfoque en nutrición práctica y basada en evidencia, junto con una audiencia altamente comprometida, la hace ideal para posicionar Brain Boost como un complemento para la claridad mental.", "ar": "yes", "ar_evidence": "Menciona UBA (Universidad de Buenos Aires) en su biografía.", "collab": "pago_alto", "comp": "$80-150K ARS + canje (3 productos)", "hook": "Martina, nos encanta cómo desmentís mitos en nutrición y tu enfoque práctico. Creemos que Brain Boost, nuestro nootrópico natural, podría ser un gran complemento para tu audiencia que busca optimizar su rendimiento mental y foco.", "email": "martinapnutricion@gmail.com", "web": "https://youtube.com/@nutrimediozapallo?si=sMCCSEU9-Z6jX0Me", "bio": "5to año de Lic. en Nutrición UBA 📚\nRecetas, tips de nutrición y un poco de mi día a día\n📩 martinapnutricion@gmail.com", "initials": "MP"}, {"tier": "B", "source": "phase2", "username": "centro.dionysos", "ig_url": "https://instagram.com/centro.dionysos", "full_name": "Dionysos", "followers": 1212, "followers_fmt": "1.2K", "er": 1.19, "fit": 8, "niche_fit": 9, "audience_fit": 7, "tone_match": 9, "authenticity": 7, "niche": "mindfulness", "fit_reason": "Su enfoque en neurociencias, mindfulness y salud mental se alinea perfectamente con los beneficios de Brain Boost para la claridad mental y la reducción de ansiedad sin estimulantes.", "ar": "yes", "ar_evidence": ".com.ar in external_url", "collab": "canje", "comp": "$30-60K ARS + canje (2 productos)", "hook": "¡Hola! Vimos su programa de Mindfulness de 8 semanas y cómo buscan mejorar la claridad mental. Creemos que Brain Boost podría ser un gran aliado para su comunidad.", "email": "", "web": "http://www.centrodionysos.com.ar/", "bio": "Centro de Neurociencias, Psicoterapias y Desarrollo Humano.", "initials": "CE"}, {"tier": "B", "source": "phase3", "username": "alispinelliok", "ig_url": "https://instagram.com/alispinelliok", "full_name": "Ali Spinelli 💫Senior Coach, PNL Máster. 1:1 & Empresas", "followers": 675, "followers_fmt": "675", "er": 4.6, "fit": 8, "niche_fit": 8, "audience_fit": 7, "tone_match": 8, "authenticity": 8, "niche": "mindfulness", "fit_reason": "Su contenido de coaching para la superación personal, el manejo de la sobrecarga y la búsqueda de potencial se alinea muy bien con los beneficios de foco y claridad mental de Brain Boost.", "ar": "yes", "ar_evidence": "Username termina en '.ok', común en Argentina.", "collab": "canje", "comp": "$30-60K ARS + canje (2 productos)", "hook": "¡Hola Ali! Vimos tu post sobre cómo acompañás a superar la sobrecarga y las dudas, y nos pareció que Brain Boost, nuestro nootrópico natural de Melena de León para el foco y la claridad mental, podría ser un gran aliado para tu comunidad. ¡Imagináte la potencia para superar obstáculos con la mente bien clara! El doypack de 30g está a $79K ARS. ¿Te gustaría probarlo y ver cómo potencia tu día?", "email": "", "web": "http://wa.link/1itsyj", "bio": "🎯 te acompaño a superar obstáculos, descubrir tu potencial, alcanzar tus metas y crear la vida que deseas 💫", "initials": "AS"}, {"tier": "B", "source": "phase1", "username": "nutreal.cordoba", "ig_url": "https://instagram.com/nutreal.cordoba", "full_name": "Nutreal Cordoba | Agus Peralta", "followers": 11559, "followers_fmt": "11.6K", "er": 0.88, "fit": 7, "niche_fit": 7, "audience_fit": 7, "tone_match": 8, "authenticity": 6, "niche": "wellness", "fit_reason": "Su enfoque en nutrición integrativa y longevidad se alinea con los beneficios de Brain Boost para la salud cognitiva y el bienestar general.", "ar": "yes", "ar_evidence": "username con 'cordoba', 'MP 3720' (Matrícula Provincial) en bio", "collab": "canje", "comp": "$30-60K ARS + canje (2 productos)", "hook": "Agus, nos encantó tu post sobre la longevidad y la salud como pilares interconectados. Creemos que Brain Boost podría complementar muy bien tu enfoque.", "email": "", "web": "https://linktr.ee/agustinaperalta", "bio": "Nutrición Integrativa & Funcional \nLic.Nutrición MP 3720 | Agustina Peralta \nTéc. Antropometrica ISAK II \nConsultas & Turnos ⬇️", "initials": "NC"}, {"tier": "B", "source": "phase2", "username": "institutoyogafunes", "ig_url": "https://instagram.com/institutoyogafunes", "full_name": "Instituto de Yoga", "followers": 38590, "followers_fmt": "38.6K", "er": 27.12, "fit": 7, "niche_fit": 5, "audience_fit": 6, "tone_match": 6, "authenticity": 9, "niche": "wellness", "fit_reason": "Su enfoque en el bienestar integral, la energía y el estado de ánimo se alinea con la búsqueda de claridad mental sin estimulantes, aunque no es directamente productividad o neurociencia.", "ar": "yes", "ar_evidence": "wa.me/341... (indicates +54 341, Rosario/Funes area code), 'Funes' in username (city in Santa Fe, Argentina)", "collab": "pago_micro", "comp": "$30-60K ARS + canje (2 productos)", "hook": "¡Hola Mica y Fer! Vi su post sobre movimientos para la baja energía y el estado de ánimo, y creo que nuestro Brain Boost de Melena de León podría complementar perfecto esa búsqueda de vitalidad y claridad mental sin estimulantes.", "email": "", "web": "http://wa.me/3415552787", "bio": "🧘🏻‍♀️Somos Mica y Fer con más de 25 años en el mundo de Yoga. \nBungee Fit, Columpios, Formaciones y más actividades para tu bienestar integral 🙌🏻", "initials": "ID"}, {"tier": "B", "source": "phase2", "username": "espaciohesai", "ig_url": "https://instagram.com/espaciohesai", "full_name": "Espacio Hesai", "followers": 24462, "followers_fmt": "24.5K", "er": 4.49, "fit": 7, "niche_fit": 6, "audience_fit": 7, "tone_match": 7, "authenticity": 8, "niche": "mindfulness", "fit_reason": "Su enfoque en retiros de naturaleza, calma y conexión mental se alinea con la búsqueda de claridad sin estimulantes. Su audiencia valora experiencias premium.", "ar": "yes", "ar_evidence": "'Delta del Tigre' mention in biography (Buenos Aires, Argentina)", "collab": "pago_micro", "comp": "$30-60K ARS + canje (2 productos)", "hook": "¡Hola! Vi que en Espacio Hesai promueven la conexión con la naturaleza y la calma mental. Creemos que Brain Boost, nuestro nootrópico natural para claridad y foco sin estimulantes, podría complementar perfecto la experiencia de desconexión que ofrecen.", "email": "", "web": "https://linktr.ee/espaciohesai", "bio": "Domos boutique & espacio para encuentros\nNaturaleza · Diseño · Experiencias\nRetiros · Eventos · Producciones\n•Delta del Tigre•", "initials": "EH"}, {"tier": "B", "source": "phase2", "username": "nutriendo_habitos", "ig_url": "https://instagram.com/nutriendo_habitos", "full_name": "Noel Argüello", "followers": 611553, "followers_fmt": "611.6K", "er": 1.01, "fit": 7, "niche_fit": 7, "audience_fit": 6, "tone_match": 8, "authenticity": 7, "niche": "wellness", "fit_reason": "Su enfoque en psiconutrición, cambio de hábitos y bienestar mental conecta con la claridad sin estimulantes de Brain Boost para adultos con ansiedad/burnout.", "ar": "yes", "ar_evidence": "MP matrícula in biography", "collab": "pago_micro", "comp": "$30-60K ARS + canje (2 productos)", "hook": "¡Hola Noel! Vimos que sos Nutricionista MP 3174 y cómo impulsás hábitos saludables. Creemos que Brain Boost, nuestro nootrópico natural con extracto de Melena de León para foco, memoria y claridad, podría ser un gran aliado para vos y tu comunidad, ¡y lo conseguís en doypack de 30g por $79K ARS!", "email": "", "web": "https://wa.link/f2xh8r", "bio": "𝗡𝗨𝗧𝗥𝗜𝗘𝗡𝗗𝗢 𝗛𝗔𝗕𝗜𝗧𝗢𝗦\n ɴᴜᴛʀɪᴄɪᴏɴɪꜱᴛᴀ ᴍᴘ 𝟥𝟣𝟩𝟦\n𝙄𝙣𝙛𝙡𝙪𝙚𝙣𝙘𝙚𝙧 𝙎𝙩𝙮𝙡𝙚𝙇𝙞𝙛𝙚\n📲 ᴛᴜʀɴᴏꜱ ᴠɪʀᴛᴜᴀʟ ʏ ᴘʀᴇꜱᴇɴᴄɪᴀʟ ⬇️", "initials": "NA"}, {"tier": "B", "source": "phase1", "username": "maas_yoga", "ig_url": "https://instagram.com/maas_yoga", "full_name": "Centro de Yoga | Profesorado de yoga", "followers": 71938, "followers_fmt": "71.9K", "er": 0, "fit": 6.75, "niche_fit": 6, "audience_fit": 5, "tone_match": 7, "authenticity": 9, "niche": "mindfulness", "fit_reason": "Su enfoque en yoga y llevar la práctica al siguiente nivel puede resonar con la búsqueda de claridad mental, aunque el ER de 0 para una cuenta grande es una señal de alerta.", "ar": "yes", "ar_evidence": "Uso de 'Llevá' (vos) en la biografía", "collab": "canje", "comp": "$30-60K ARS + canje (2 productos)", "hook": "Che, Maas Yoga, ¡qué bueno que buscás llevar la práctica al siguiente nivel! Si querés potenciar el foco y la claridad mental en tus alumnos, probá nuestro Brain Boost, el nootrópico natural de Melena de León por $79K ARS.", "email": "", "web": "https://linktr.ee/maasyoga", "bio": "🌿 Llevá tu práctica al siguiente nivel 🌿\n📍Certificación en Yoga Alliance\n🧘‍♂️ Cursos Online & Presencial\n💫 +20 años de experiencia\n📲 Info & fechas ⬇️", "initials": "CD"}, {"tier": "C", "source": "phase2", "username": "rebalanceatwork", "ig_url": "https://instagram.com/rebalanceatwork", "full_name": "Jimena & Lucia/Rebalance", "followers": 68054, "followers_fmt": "68.1K", "er": 0.27, "fit": 6, "niche_fit": 7, "audience_fit": 6, "tone_match": 7, "authenticity": 5, "niche": "mindfulness", "fit_reason": "Su enfoque en neurociencias y regulación del sistema nervioso es relevante para la claridad mental, pero el engagement es muy bajo y el contenido principal es yoga/reflexología.", "ar": "yes", "ar_evidence": ".com.ar domain in external_url", "collab": "canje", "comp": "Solo canje (1-2 productos)", "hook": "¡Hola Jimena y Lucía! Nos encantó lo que hacen en Rebalance con el movimiento liberador, el yoga y la reflexología. Creemos que nuestro Brain Boost, el nootrópico natural de Melena de León para foco, memoria y claridad mental, podría ser un complemento ideal para potenciar la concentración en la práctica de yoga o para la claridad que necesitan como life coaches. ¿Te gustaría que te contemos más sobre cómo Brain Boost ($79K ARS el doypack de 30g) puede sumar a su propuesta de bienestar?", "email": "", "web": "https://www.rebalanceatwork.com.ar/", "bio": "Movimiento liberador\nEscuela de Yoga & Reflexología\n🌎 Life Coach\nProfesorado de Yoga (YAI & WYF)@yogaalliance\nReflexología ICR\n@luciaetcheverrycoach", "initials": "J&"}, {"tier": "A", "source": "phase2", "username": "gabriel_lazarocruz4", "ig_url": "https://instagram.com/gabriel_lazarocruz4", "full_name": "𝐺𝑎𝑏𝑟𝑖𝑒𝑙 𝐿𝑎𝑧𝑎𝑟𝑜-𝐶𝑟𝑢𝑧 🧠🫀", "followers": 41496, "followers_fmt": "41.5K", "er": 15.71, "fit": 10, "niche_fit": 10, "audience_fit": 10, "tone_match": 10, "authenticity": 10, "niche": "neurociencia", "fit_reason": "Su contenido se centra en neurociencia y psicología, abordando directamente el rendimiento cognitivo, la ansiedad y el bienestar cerebral, lo que lo hace un fit perfecto para Brain Boost.", "ar": "unclear", "ar_evidence": "'tu' in biography and previous_hook (tuteo, not voseo), no other strong AR indicators", "collab": "pago_alto", "comp": "$80-150K ARS + canje (3 productos)", "hook": "¡Hola Gabriel! Seguimos tu contenido sobre neurociencia y psicología, y nos encantó tu reciente post sobre el impacto del teléfono en el bienestar cerebral. Creemos que Brain Boost, nuestro nootrópico natural de Melena de León, podría interesarte por su foco en neuroprotección y claridad mental.", "email": "", "web": "https://chat.whatsapp.com/4QPRn6SSN5X2Yq3vSFh3yU", "bio": "Neurociencia y Psicología  \nDirector en @cerebrumla\nTransforma tu 🧠 y🫀\nÚnete al grupo de WhatsApp:", "initials": "𝐺𝐿"}, {"tier": "B", "source": "phase1", "username": "equilibrasupl", "ig_url": "https://instagram.com/equilibrasupl", "full_name": "Equilibra", "followers": 7503, "followers_fmt": "7.5K", "er": 0, "fit": 9, "niche_fit": 10, "audience_fit": 9, "tone_match": 9, "authenticity": 8, "niche": "biohacking", "fit_reason": "Su biografía menciona adaptógenos y el potencial mental, lo cual se alinea perfectamente con Brain Boost.", "ar": "unclear", "ar_evidence": "Biografía en español, pero sin señales claras de Argentina o no-Argentina.", "collab": "canje", "comp": "$30-60K ARS + canje (2 productos)", "hook": "¡Hola! Vi tu perfil y me llamó la atención cómo conectás el potencial de la mente con adaptógenos. En Smart Foods tenemos Brain Boost, un extracto de Melena de León que te va a encantar.", "email": "", "web": "https://linktw.in/evchwu", "bio": "👁️‍🗨️ Descubre el potencial de tu mente\n🍄‍🟫 Adaptógenos 100% extracto puro", "initials": "EQ"}, {"tier": "B", "source": "phase3", "username": "desire.e.gincoff1", "ig_url": "https://instagram.com/desire.e.gincoff1", "full_name": "Desiree Gincoff", "followers": 439, "followers_fmt": "439", "er": 2.75, "fit": 8.5, "niche_fit": 9, "audience_fit": 9, "tone_match": 9, "authenticity": 7, "niche": "biohacking", "fit_reason": "Excelente alineación con biohacking, longevidad, nutrigenética y medicina orthomolecular, lo que atrae a una audiencia premium interesada en el respaldo científico. Sin embargo, la falta de publicaciones recientes y el tamaño nano requieren una prueba inicial.", "ar": "unclear", "ar_evidence": "No explicit AR/NO-AR indicators", "collab": "canje", "comp": "$30-60K ARS + canje (2 productos)", "hook": "¡Hola Desiree! Nos copó tu enfoque en medicina orthomolecular y longevidad. Creemos que Brain Boost, nuestro nootrópico natural con extracto de Melena de León para foco, memoria y claridad, podría ser un complemento ideal para tus pacientes, ¡y lo conseguís en doypack de 30g por $79K ARS!", "email": "", "web": "", "bio": "Medicina orthomolecular, clínica, nutrigenética, antiage y de longevidad.\nTerapia oncologica coadyuvante orthomolecular.\nNutrición antiinflamatoria.", "initials": "DG"}, {"tier": "B", "source": "phase2", "username": "centro_aquiyahora", "ig_url": "https://instagram.com/centro_aquiyahora", "full_name": "Centro Aqui y Ahora", "followers": 2094, "followers_fmt": "2.1K", "er": 1.56, "fit": 7, "niche_fit": 7, "audience_fit": 6, "tone_match": 8, "authenticity": 8, "niche": "wellness", "fit_reason": "Su enfoque en psicoterapia y salud integral para profesionales se alinea con la búsqueda de claridad mental y bienestar sin estimulantes que ofrece Brain Boost.", "ar": "unclear", "ar_evidence": "No specific Argentinian or non-Argentinian indicators in bio or external_url. Previous hook uses 'acompañan' (ustedes form), not voseo.", "collab": "canje", "comp": "$30-60K ARS + canje (2 productos)", "hook": "¡Hola! Vimos que en Centro Aquí y Ahora se enfocan en la psicoterapia y la salud integral. Creemos que nuestro Brain Boost, el nootrópico natural de Melena de León para foco, memoria y claridad mental, podría ser un gran aliado para la concentración de tus profesionales o para complementar el bienestar de tus pacientes. ¿Te gustaría conocer más sobre cómo Brain Boost ($79K ARS el doypack de 30g) puede potenciar la claridad mental?", "email": "", "web": "", "bio": "Centro de psicoterapia y salud integral desde diferentes enfoques y especialidades\n🌎 Atención presencial y virtual", "initials": "CA"}, {"tier": "C", "source": "phase1", "username": "dr.larosa", "ig_url": "https://instagram.com/dr.larosa", "full_name": "Doctor Sebastián La Rosa", "followers": 1000000, "followers_fmt": "1.0M", "er": 0, "fit": 6, "niche_fit": 9, "audience_fit": 8, "tone_match": 10, "authenticity": 0, "niche": "biohacking", "fit_reason": "Excelente alineación de nicho y tono con el posicionamiento science-backed de Brain Boost, pero el engagement rate de 0% es una red flag crítica para la autenticidad y el compromiso de la audiencia.", "ar": "unclear", "ar_evidence": "Nombre común en Argentina (Sebastián La Rosa)", "collab": "canje", "comp": "Solo canje (1-2 productos)", "hook": "Hola Dr. La Rosa! Vimos tu enfoque en el criterio para suplementos y el hashtag #nootropicos. Creemos que Brain Boost, nuestro nootrópico natural science-backed, podría interesarte.", "email": "", "web": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2Fdrlarosa%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnjtWd1MjZ4ULSC4LtsACwO-Eb-BdOQHnr9bBFZBZG0sDS_UHst1V2H6rvkI0_aem_vatEEkgWpW5qS7R39UQuvg&e=AT6-sfPcmqcp4tSxeT14lD1M1s8O7aaK7-knPWEVT5s_EYsV3r7ee_DVXlk15Wi10BKIfT4q-nOsc8DfUpsgO3xlEjSxYtvV-mTl1_xlKhfbKjdzFuBhuS4WXQ", "bio": "Mejora tu salud con consejos de nutrición, bienestar y cambio de hábitos.", "initials": "DS"}, {"tier": "C", "source": "phase1", "username": "soynoeliasegura", "ig_url": "https://instagram.com/soynoeliasegura", "full_name": "Noelia Segura | Coach Mujeres +40", "followers": 267000, "followers_fmt": "267.0K", "er": 0, "fit": 6, "niche_fit": 8, "audience_fit": 8, "tone_match": 8, "authenticity": 0, "niche": "biohacking", "fit_reason": "Su enfoque en longevidad, rendimiento y biohacking para mujeres +40 es muy relevante, pero el engagement rate de 0% es una señal de alerta crítica.", "ar": "unclear", "ar_evidence": "Nombre común en Argentina (Noelia Segura)", "collab": "canje", "comp": "Solo canje (1-2 productos)", "hook": "Che Noelia Segura, ¡qué buena tu misión de potenciar la longevidad y el rendimiento en mujeres +40! Si buscás darles un plus de foco y claridad mental, probá nuestro Brain Boost, el nootrópico natural de Melena de León por $79K ARS.", "email": "", "web": "https://l.instagram.com/?u=https%3A%2F%2Fmiweb.noeliasegura.com%2Flandingpage1%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnXy_EFKU2wcmD0YvwSC_r7cem9mtJ3xtYxPd7yBZdzKfNRd1VNbGEQJMmY2E_aem_TT_qhSAwoveEbcmS9CQDvw&e=AT6t6HTCBh8uFKrOfFsMVbKtCE6KVMZCjmDutt-zcKP9MAJ1WORRS7uuZT5SInuvvfyF3qyzt-7W2TgwE4QmIljYNPrv0XUkac-bfDd2hZbk1vq284KHQ6esxA", "bio": "💎 Longevidad y rendimiento a los +40", "initials": "NS"}, {"tier": "C", "source": "phase1", "username": "antaraescueladeyoga", "ig_url": "https://instagram.com/antaraescueladeyoga", "full_name": "Antara Escuela de Yoga", "followers": 3881, "followers_fmt": "3.9K", "er": 0, "fit": 6, "niche_fit": 5, "audience_fit": 4, "tone_match": 7, "authenticity": 8, "niche": "mindfulness", "fit_reason": "Su enfoque en meditación y yoga terapéutico puede tener un punto de conexión con la claridad mental, aunque no es un nicho principal para nootrópicos.", "ar": "unclear", "ar_evidence": "Lengua española en bio y nombre, pero sin señales específicas de Argentina (ubicación, modismos, etc.).", "collab": "canje", "comp": "Solo canje (1-2 productos)", "hook": "¡Hola! Vi que en Antara se enfocan en meditación y yoga terapéutico. Creemos que Brain Boost podría ser un gran complemento para la concentración y claridad mental en la práctica.", "email": "", "web": "https://linktr.ee/antaraescuelayoga", "bio": "Instructorado hatha yoga \nFormación yoga infancias\nHathayoga\nMeditacion \nYoga prenatal \nYoga terapéutico \nYoga infancias \nYin Yoga \nTaichi Chi Kung", "initials": "AE"}, {"tier": "C", "source": "phase3", "username": "sebastiantorrone.coach", "ig_url": "https://instagram.com/sebastiantorrone.coach", "full_name": "MindSet Coaching para profesionales", "followers": 15186, "followers_fmt": "15.2K", "er": 0.17, "fit": 6, "niche_fit": 8, "audience_fit": 8, "tone_match": 8, "authenticity": 2, "niche": "mindfulness", "fit_reason": "Su contenido de coaching para profesionales que buscan propósito y claridad mental encaja muy bien con los beneficios de Brain Boost. Sin embargo, su engagement rate es extremadamente bajo.", "ar": "unclear", "ar_evidence": "No explicit AR/NO-AR indicators", "collab": "canje", "comp": "Solo canje (1-2 productos)", "hook": "Hola Sebastián, vimos tu post sobre el 'dilema silencioso después de los 30' en profesionales y nos pareció súper relevante para la claridad mental que buscamos potenciar con Brain Boost.", "email": "", "web": "https://www.instagram.com/sebastian.torrone.coach/", "bio": "Nueva cuenta @sebastian.torrone.coach", "initials": "MC"}, {"tier": "C", "source": "phase3", "username": "natur.fujii", "ig_url": "https://instagram.com/natur.fujii", "full_name": "NATUR FUJI", "followers": 7277, "followers_fmt": "7.3K", "er": 0.76, "fit": 6, "niche_fit": 7, "audience_fit": 7, "tone_match": 5, "authenticity": 6, "niche": "wellness", "fit_reason": "Venden hongos adaptógenos, lo cual es un buen nicho, pero su tono es más 'artesanal' y menos 'science-backed' que el de Smart Foods. Su engagement es muy bajo.", "ar": "unclear", "ar_evidence": "No hay evidencia clara para determinar si es argentino o no.", "collab": "canje", "comp": "Solo canje (1-2 productos)", "hook": "¡Hola Natur Fuji! Vimos que son un emprendimiento familiar dedicado a los Hongos Adaptógenos y nos interesaría mucho que prueben nuestro Brain Boost de Melena de León. Es un nootrópico natural que ayuda al foco, la memoria y la claridad mental, ¡ideal para potenciar la creatividad y el trabajo artesanal! El doypack de 30g tiene un valor de $79K ARS. ¿Les gustaría que les enviemos una muestra para que lo conozcan?", "email": "", "web": "", "bio": "Emprendimiento familiar donde unimos lo natural y lo artesanal.\nTodos nuestros productos estan creados con amor y respeto por la naturaleza 🌺", "initials": "NF"}];
+const STORAGE = 'bb_creators_state';
+let state = JSON.parse(localStorage.getItem(STORAGE) || '{}');
+let activeFilter = 'all';
+let searchQ = '';
+let sortKey = 'fit';
+
+function save() { localStorage.setItem(STORAGE, JSON.stringify(state)); updateStats(); }
+function updateStats() {
+  const n = LEADS.filter(L => state[L.username]?.contacted).length;
+  document.getElementById('stat-contacted').textContent = n;
+}
+
+function toast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 1800);
+}
+
+function render() {
+  const grid = document.getElementById('grid');
+  let items = LEADS.filter(L => {
+    if (activeFilter === 'A' || activeFilter === 'B' || activeFilter === 'C') {
+      if (L.tier !== activeFilter) return false;
+    } else if (activeFilter === 'ar-yes') {
+      if (L.ar !== 'yes') return false;
+    } else if (activeFilter === 'ar-unclear') {
+      if (L.ar !== 'unclear') return false;
+    } else if (activeFilter === 'pending') {
+      if (state[L.username]?.contacted) return false;
+    }
+    if (searchQ) {
+      const hay = (L.username + ' ' + L.full_name + ' ' + L.niche + ' ' + L.bio + ' ' + L.fit_reason).toLowerCase();
+      if (!hay.includes(searchQ.toLowerCase())) return false;
+    }
+    return true;
+  });
+
+  items.sort((a, b) => {
+    if (sortKey === 'fit') return b.fit - a.fit;
+    if (sortKey === 'er') return b.er - a.er;
+    if (sortKey === 'followers') return b.followers - a.followers;
+    if (sortKey === 'followers-asc') return a.followers - b.followers;
+    return 0;
+  });
+
+  if (items.length === 0) {
+    grid.innerHTML = '<div class="empty">No hay creators con estos filtros</div>';
+    return;
+  }
+
+  grid.innerHTML = items.map(L => {
+    const st = state[L.username] || {};
+    const contactedClass = st.contacted ? 'contacted' : '';
+    const contactedBtn = st.contacted ? '✓ Contactado' : '○ Marcar contactado';
+    const contactedActive = st.contacted ? 'active' : '';
+    const escHook = L.hook.replace(/"/g, '&quot;').replace(/'/g, '&apos;');
+    return `
+      <div class="card ${contactedClass}" data-user="${L.username}">
+        <div class="card-header">
+          <div class="avatar">${L.initials}</div>
+          <div class="card-id">
+            <a class="username" href="${L.ig_url}" target="_blank">@${L.username}</a>
+            <div class="fullname">${L.full_name || '—'}</div>
+          </div>
+          <div class="tier-badge tier-${L.tier}">Tier ${L.tier}</div>
+        </div>
+        <div class="metrics">
+          <div class="metric"><div class="v">${L.followers_fmt}</div><div class="k">followers</div></div>
+          <div class="metric"><div class="v">${L.er}%</div><div class="k">engagement</div></div>
+          <div class="metric"><div class="v">${L.fit}/10</div><div class="k">brand fit</div></div>
+        </div>
+        <div class="tags">
+          <span class="tag ar-${L.ar}">AR ${L.ar === 'yes' ? '✓' : '?'}</span>
+          <span class="tag">${L.niche}</span>
+          <span class="tag collab">${L.collab}</span>
+          <span class="tag">${L.source}</span>
+        </div>
+        <div class="reason">${L.fit_reason}</div>
+        <div class="score-grid">
+          <div class="score-item"><div class="sv">${L.niche_fit}</div><div class="sk">niche</div></div>
+          <div class="score-item"><div class="sv">${L.audience_fit}</div><div class="sk">audience</div></div>
+          <div class="score-item"><div class="sv">${L.tone_match}</div><div class="sk">tone</div></div>
+          <div class="score-item"><div class="sv">${L.authenticity}</div><div class="sk">auth</div></div>
+        </div>
+        <div class="compensation">💰 ${L.comp}</div>
+        <div class="hook-block">
+          <div class="hook-label">Ángulo DM personalizado</div>
+          <div class="hook-text">${L.hook}</div>
+        </div>
+        <div class="contact-row">
+          ${L.email ? `<a href="mailto:${L.email}">✉ ${L.email}</a>` : ''}
+          ${L.web ? `<a href="${L.web}" target="_blank">🔗 web</a>` : ''}
+        </div>
+        <div class="actions">
+          <a class="btn primary" href="https://www.instagram.com/${L.username}/" target="_blank">Abrir IG</a>
+          <button class="btn" onclick="copyHook(this, '${escHook}')">📋 Copiar hook</button>
+          <button class="btn ${contactedActive}" onclick="toggleContacted('${L.username}', this)">${contactedBtn}</button>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function copyHook(btn, text) {
+  navigator.clipboard.writeText(text).then(() => {
+    toast('Hook copiado');
+    btn.textContent = '✓ Copiado';
+    setTimeout(() => btn.textContent = '📋 Copiar hook', 1500);
+  });
+}
+
+function toggleContacted(user, btn) {
+  state[user] = state[user] || {};
+  state[user].contacted = !state[user].contacted;
+  save();
+  toast(state[user].contacted ? `Marcado @${user}` : `Desmarcado @${user}`);
+  render();
+}
+
+document.querySelectorAll('.filter-pill').forEach(p => {
+  p.addEventListener('click', () => {
+    document.querySelectorAll('.filter-pill').forEach(x => x.classList.remove('active'));
+    p.classList.add('active');
+    activeFilter = p.dataset.filter;
+    render();
+  });
+});
+document.getElementById('search').addEventListener('input', e => { searchQ = e.target.value; render(); });
+document.getElementById('sort').addEventListener('change', e => { sortKey = e.target.value; render(); });
+
+updateStats();
+render();
+</script>
+</body>
+</html>

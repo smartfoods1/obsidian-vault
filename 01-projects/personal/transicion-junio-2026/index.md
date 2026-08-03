@@ -10,6 +10,7 @@ status: active
 Dos carriles en paralelo. **A = consultoría (caja en 30-60 días)**, **B = empleo remoto USD**. Runway 1-2 meses → ejecución.
 
 - [[carril-a-consultoria|Carril A — Consultoría]] (oferta · prospectos · scripts)
+- [[cartera-servicios-cpg-funcional|Cartera servicios CPG Funcional (jul 2026)]] (escalera · 4 prospectos · conflictos KR/PGN · síntesis panel)
 - [[carril-b-empleo|Carril B — Empleo remoto USD]] (2 CVs · LinkedIn · mapa de roles)
 - [[benchmarks-mercado|Benchmarks de mercado + posicionamiento]]
 

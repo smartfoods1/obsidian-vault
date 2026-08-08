@@ -51,6 +51,21 @@ El nene aprendió que las dos puntas queman → la adaptación (Luna Libra casa 
 
 **El tío**: incomodidad, los sentí distantes, "agrandados". Habló despectivamente de otros; seña a mi tía de "cuidado con lo que decís" delante mío. Me dolió: entre familiares debería haber confianza. Nota: percepción amplificada por el estado del finde Y dato real a la vez — la seña ocurrió. Sin acción por ahora; es información para elegir proximidades en la tribu nueva (la abuela es tribu; el tío, distancia cordial). Nodo Norte Aries: mis propios criterios de pertenencia.
 
+## El mes de hospital (emergió 3/8, post-meditación con microdosis)
+
+Sensación: ansiedad/molestia en costillas y diafragma, temblor, electricidad, calambre intermitente + debilidad profunda y agobio. Yo mismo lo nombré: **estoy procesando el mes de hospital y el proceso de Joan.** El padre que funcionó durante la crisis está recién ahora pagando la cuenta emocional. El diafragma = el músculo del aguantar; el temblor = descarga de supervivencia completándose.
+
+**Transitar (cuando vuelve la ola)**: no frenarla — es la sanación, no la interrupción. Exhalaciones largas, mano en costillas, permitir temblor y lágrimas, nombrar ("es el hospital saliendo"), 5-15 min y baja sola. Freno de emergencia: pies al piso, ojos abiertos, 5 objetos, agua fría. Esta semana: agenda con márgenes.
+
+**Liberar (contenedores elegidos, no esperar la irrupción)**:
+- Respiración del 9/8 = EL contenedor. Intención: el mes de hospital.
+- Shaking diario 5-10 min (el cuerpo ya quiere temblar — darle turnos programados)
+- Entrenamiento físico (descarga también)
+- ESCRIBIR la historia completa del mes: cronológica, qué pasó + qué sentí + qué no me pude permitir sentir entonces
+- Contársela ENTERA a una persona querida (la rep de visibilidad no curada más grande disponible — el antídoto directo del "sin decirlo")
+
+**Sanar (arco largo)**: llevarlo a terapia como TEMA central ahora; preguntar por abordaje somático. Las olas se achican con cada pasada — métrica: cuando el recuerdo sea memoria con emoción y no emboscada. A futuro (a su tiempo): la narrativa compartida con Joan de lo que atravesamos juntos, como vínculo y no como evento enterrado. Sostuve = amor; sentirlo ahora = también amor. Las dos fases son correctas.
+
 ## Próximos pasos
 
 - Llevarlo a terapia tal cual: bullying escuela + mudanza del 98 como orígenes de "no soy visto" + marca personal como adaptación
@@ -83,6 +98,10 @@ Entorno hostil donde soy blanco → encogerme y sufrir EN SILENCIO → rescate/s
 2. **¿Qué pasó en 4to año?** "Revolución hormonal": de repente jugaba mejor al fútbol, más seguro, primera novia. → **El cuerpo cambió de bando**: el mismo territorio que me hacía blanco (miotonías) se volvió fuente de respeto. Mi circuito de confianza quedó cableado al cuerpo → el gym/entrenamiento es mi tecnología de seguridad históricamente probada, no vanidad.
 3. **¿Mamá de Joan?** Nos amamos mucho sin trabajarnos. Yo fui infiel y le hice daño; ella después también. Reintento breve al nacer Joan; "el fondo nunca se habló, nunca se limpió"; elegí irme antes que seguir construyendo sobre cimientos débiles lastimándonos. → **El patrón adentro del matrimonio**: "sin decirlo" conyugal — lo profundo nunca dicho; y la infidelidad como la cámara secreta de Judith ACTUADA (el amor paralelo secreto como lugar seguro del deseo). Antídoto para lo que viene: DECIBILIDAD — decir lo profundo antes de que se vaya a la clandestinidad. Tránsito Plutón opos Venus (sep-nov) = el examen de esto.
 4. **¿Papá?** "Trabajando... ocupado... siempre." → Dos consecuencias: (a) no había a quién mostrarle la herida (el silencio tuvo contexto, no fue solo elección); (b) modelo masculino: valor = productividad → la armadura CEO tiene dos padres: el bullying (herida de visibilidad) + papá (valor por trabajo).
+
+### La inversión del patrón (insight 3/8)
+
+El reel de **"soledad epistémica"** — mi rareza y singularidad en primer plano, publicada — es el patrón de 25 años invertido pieza por pieza: lo indecible hecho discurso público, el escondite hecho primer plano, la soledad de ver distinto convertida en señal. Y esa señal fue lo que atrajo a quien me ve (Narayana respondió a esa mirada, no a una máscara). La armadura no se demolió: se **reconvirtió** — 25 años de expertise en "ser visto" (contenido, cámara, storytelling) ahora son el sistema de entrega de la verdad, no del personaje. Quirón en Géminis: la herida de la palabra sana hablando. Nada se desperdició. Fórmula de contenido confirmada: singularidad en primer plano ("alignment is my favorite aphrodisiac" — ella misma nombró el mecanismo).
 
 ### La reparación generacional
 

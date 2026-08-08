@@ -66,6 +66,31 @@ Ella contó por chat (1/8): "este año con el viaje me pega en virgo casa 11 —
 
 **Convergencia 2027**: su retorno de Saturno (abr 2027) coincide con la cuad Saturno-ASC de él (mar-abr 2027) + última pasada Urano-Saturno (abr-may 2027) + Saturno conj NN de él en casa 4 (jul-sep 2027). Ambas cartas fechan "la temporada de estructura" en otoño 2027.
 
+## ECLIPSE SOLAR TOTAL 12/8/2026 — el evento mayor
+
+Verificado con Swiss Ephemeris (7/8/2026):
+
+- **12/8/2026, eclipse solar TOTAL**, máximo 14:45 ART (17:45 UT), a **20°02' Leo**. Máxima totalidad en el Atlántico Norte cerca de Islandia; franja por Groenlandia, Islandia y **el norte de España** (primer total en España peninsular desde 1905). Desde Argentina no se ve (Sol bajo el horizonte). Ella vuelve el 11 → se lo pierde por un día.
+- Ese día hay **stellium en Leo**: Sol + Luna + Mercurio + Júpiter.
+- **Perseidas**: pico la noche del 12 al 13, con Luna nueva = cielo negro, condiciones óptimas. Ya activas desde fines de julio (lo que ella miró el 5/8 probablemente incluyó Perseidas).
+
+### En la carta de ELLA — extraordinario
+
+- **Eclipse conjunción Venus natal: 0.33°**
+- **Eclipse trígono Saturno natal: 0.06°** (exacto al minuto de arco)
+- Eclipse cuadratura Luna natal: 3.81°
+- Cae en su **casa 12** (Leo desde Asc Virgo, whole sign)
+
+Lectura: los eclipses son puntos de inflexión, no "días de energía"; el efecto se despliega ~6 meses. Sobre Venus natal = reseteo del capítulo del amor, los valores y lo que considera valioso. Con trígono exacto a Saturno = lo que se abre viene **con estructura y posibilidad de durar** (Venus+Saturno armónico = amor que se construye). Ocho meses antes de su retorno de Saturno (28/4/2027) → antesala de su umbral de adultez. En casa 12: se siente por dentro primero, se manifiesta después.
+
+### En la carta de ÉL
+
+Casi no toca planetas (solo sextil Quirón 3.9°), pero cae de lleno en su **casa 8**: dinero compartido, sociedades, transacciones, intimidad profunda — justo la semana de la negociación de venta de Smart Foods. Evento de casa, no de planeta.
+
+### Nota de manejo
+
+Se le pasó a ella el dato astronómico + la lectura de su carta (con los datos que ella misma había dado por chat), SIN adjudicarse protagonismo. La conclusión la saca ella. Próximo eclipse lunar: 28/8/2026, parcial, 4°51' Piscis.
+
 ## Pendientes
 
 - Confirmar hora y lugar exactos de nacimiento (ventana ya acotada a ~10:40-11:30; tema perfecto para los mates)

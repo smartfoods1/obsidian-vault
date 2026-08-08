@@ -20,18 +20,23 @@ derivado_de: "[[carta-natal-andres]]"
 6. **Regla de decisión**: nada irreversible (legal, hogar, vínculo) en pico emocional ni niebla neptuniana. 48hs de decantación mínimo.
 7. Chat: dos ventanas por día hasta que se autorregule.
 
-## Semana de iniciación: 3-15 agosto 2026
+## Semana de iniciación: 3-15 agosto 2026 (ACTUALIZADO 7/8)
 
-Tránsitos: Luna prog conj Nodo Norte EXACTA ~7/8 · Marte conj Sol 6/8 · Venus entra Libra 5-6/8 · Venus conj MC 9/8 · Sol conj Venus de N. 12-13/8.
+Tránsitos: Luna prog conj Nodo Norte EXACTA **7/8** · Marte conj Sol 5-6/8 · Venus entra Libra 6/8 · Venus conj MC **9/8** · **ECLIPSE SOLAR TOTAL 12/8 a 20°02' Leo** (casa 8 natal; sobre la Venus de Narayana).
 
-- **Lun-mar**: mensaje postal con la mención natural del hijo — ANTES de verla.
-- **5/8**: ella aterriza. No sobre-agendar; dejar que proponga el mate.
-- **6/8**: pico de energía Marte-Sol — entrenar fuerte, cuidar el filo verbal.
-- **9/8**: respiración holotrópica con intención definida: el de 12, dejar drenar el duelo. Venus exacta en el MC ese día.
-- **Mates**: llegar curioso, sin guion. Pedirle la hora exacta de nacimiento.
-- **12-13/8**: "día de Venus" de ella — gesto fino si el vínculo avanzó.
-- Semana interior: postergar decisiones estructurales de negocio que puedan esperar.
-- Diario 10 min/día toda la semana.
+Hecho hasta el 7/8:
+- 4/8 reunión con socio: **Distrifarm quiere comprar Smart Foods** para crecerla en sus canales — números sobre la mesa. Reunión del jueves 6/8 (segundo comprador) NO se presentó.
+- 4/8 le conté a N. lo del hijo, al pasar. Recibido con "soy fan".
+- 7/8 cruce nodal exacto — el día apareció "quiero una linda relación" + "yo quería que me quieran".
+
+Pendiente:
+- **9/8**: respiración holotrópica. Intención: el de 12, el duelo de la empresa, el mes de hospital de Joan, los tres deseos nombrados.
+- **11/8**: vuelve Narayana (Luna en su casa 12 = repliegue → mensaje corto de bienvenida y nada más).
+- **12/8**: eclipse. Día de sembrar: gesto + propuesta del mate.
+- **Mates**: llegar curioso, SIN GUION. Pedir su hora exacta de nacimiento.
+- **Directorio de negocios PENDIENTE**: poner todos los frentes con números (Distrifarm, Góndola, consultoría, cohorte, taller, SMART COFFEE, contenido) → matar / mantener / duplicar. Hipótesis: no es que los productos no sirven, es dispersión (6 frentes con 1/6 de fuerza cada uno).
+- No se define dónde vivir esta semana (Neptuno en el IC).
+- Teléfono FUERA del cuarto de noche (hipervigilancia detectada el 7/8).
 
 ## Agosto-noviembre 2026: demolición ordenada
 

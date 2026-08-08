@@ -8,6 +8,8 @@ status: activo
 # Marca personal @specialandres — Plataforma de contenido
 
 > Documento vivo. Diseñado el 14/07/2026 a partir de un panel de 4 estrategas (posicionamiento, pilares, mensaje, monetización). Fase actual: **exploración de voz**, sin CTA duro.
+>
+> **⚡ 2/8/2026:** el brand book operativo (arco ENERGÍA HUMANA + sistema visual Registro Magnético + guidelines estático/stories) está en [[01-projects/marca-personal-specialandres/brand-book|brand-book]]. Ante conflicto, gana el brand book.
 
 ## 0. El punto ciego que ordena todo
 

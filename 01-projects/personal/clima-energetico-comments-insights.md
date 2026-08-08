@@ -7,6 +7,13 @@ status: activo
 
 # Clima Energético — Insights de comentarios (reel 29/7/2026)
 
+## 🔢 REGISTRO DE NUMERACIÓN DE PLACAS (Registro Magnético — mantener SIEMPRE)
+
+- Recap semana (placas del video, ~30/7): **PL. I–IX** (cierre "Era el sol, no yo" = PL. IX).
+- Carrusel educativo "Por qué dormimos mal cuando el cielo se pone intenso" (4/8): **PL. X–XVIII**. Assets: `~/Desktop/assets-carrusel-guia-sueno/` (`build_slides.py` regenera los HTML; `png/` finales 2160×2700). Caption en `CAPTION.md` de esa carpeta.
+- Carrusel ficha "La resonancia Schumann" (4/8): **PL. XIX–XXVIII**. Assets: `~/Desktop/assets-carrusel-schumann/` · export listo para subir en `~/Desktop/carrusel-schumann/` (01–10.png + copy.txt). Registro editorial: tono catálogo, sin defensa ni aclaración (pedido explícito de Andrés). Incluye placa de folklore/conspiranoia rotulada "lo que se dice" — respeta la regla HAARP (ni valida ni desacredita).
+- **Próxima placa disponible: PL. XXIX.**
+
 ## 📡 FUENTE OFICIAL — sos70.ru (documentado 30/7)
 
 - **Imagen actualizada (últimos 3 días, se renueva sola)**: `https://sos70.ru/provider.php?file=shm.jpg` (1540x460). La URL vieja sosrff.tsu.ru sirve imágenes VENCIDAS — no usar.
@@ -64,7 +71,7 @@ status: activo
 - **V6 — dom 10/8 o lun 11/8: PRE-ECLIPSE 12/8** — el tentpole del mes.
 - **Recurrente**: "Pronóstico del clima energético" semanal (lunes, 30 seg).
 - **Bonus**: video/story de MASCOTAS (magnetorrecepción documentada — donde místico y peer-reviewed coinciden).
-- **Regla editorial fija**: cada video lleva (a) segmento "los inmunes" (honestidad anti-Barnum), (b) disclaimer "el cielo acompaña, tu médico manda".
+- **Regla editorial fija**: cada video lleva segmento "los inmunes" (honestidad anti-Barnum). ~~Disclaimer médico de rutina~~ — **dado de baja el 4/8/2026 por decisión de Andrés** (la frase "el cielo acompaña, tu médico manda" nunca fue suya; se canonizó sola). La derivación médica sigue viva SOLO en la respuesta al caso concreto.
 
 Reel: https://www.instagram.com/reel/DbYHYBMuJy2/ — al cierre del 29/7: 6.111 likes, 671 comments, 149 respuestas publicadas, comentario FAQ fijado.
 Lista viva de comentarios-insumo para próximos contenidos. Se actualiza con cada barrido.
@@ -174,7 +181,7 @@ Publicado 7 min después del principal, SIN push: 877❤ y 44💬 — el tema tr
 ## ⚠️ Quotable delicado (usar con cuidado)
 
 - @carril_2024: "toda la semana con pesadillas, hoy fui al psiquiatra y le dije: doctor, no quiero tomar medicamentos porque no soy yo, es el sistema… pero era también el planeta"
-→ Ilustra PERFECTO el riesgo de la absolución mal comunicada: gente usando el marco energético para rechazar tratamiento. NO usar como quotable celebratorio. Sí usar (anónimo) como el motivo del disclaimer en cada video: "el cielo acompaña, tu médico manda". La respuesta pública ya marcó esa línea.
+→ Ilustra PERFECTO el riesgo de la absolución mal comunicada: gente usando el marco energético para rechazar tratamiento. NO usar como quotable celebratorio. Es el recordatorio de por qué, cuando alguien cuenta que dejó o quiere dejar un tratamiento, la respuesta individual lo deriva a su médico. (El disclaimer de rutina en cada pieza se dio de baja el 4/8/2026.)
 
 ## 💊 Quotable MAYOR — el efecto "explicación como medicina" (barrido 30/7 mañana)
 
@@ -391,3 +398,30 @@ Cobertura: principal 4 + prueba 3 + parte 2 principal 7 + parte 2 copia 16 (la c
 - **Salud**: @ivivalapepa (depre + vértigo → derivada con cuidado), @irmaderrigo (palpitaciones → chequeo si vuelven).
 - **Pregunta técnica** (@fernando.ar.ok cómo filmó): respondida honesta — iphone común, 30fps, paciencia. Humaniza.
 - **Skips por protocolo**: antenas/wifi/VACUNAS (silencio), chiste político del Congreso (2° caso — patrón: el reel tormenta atrae política, no engancharse), jab personal (@wildmaster2), "6 de agosto" críptico.
+
+## 🧩 DM lun 3/8 — Ángulo nuevo: NEURODIVERGENCIA + hipersensibilidad (@gisela_ange)
+
+**El DM** (respondido por Andrés directamente): madre de una nena autista. Reporta que la hija durmió "súper súper mal" la semana pasada, y que hablando con otras mamás de la escuela especial encontró **horarios coincidentes de despertar**. Hipótesis de ella: los chicos neurodivergentes (y adultos) tienen hipersensibilidad a la actividad geomagnética. Cierre: "Tanto mi esposo como yo tenemos gran sensibilidad. No creo que nuestra hija autista sea una casualidad 😅".
+
+**Marcador importante**: Andrés le respondió *"no estoy diagnosticado en absoluto pero me autopercibo así"* — **primera auto-revelación de neurodivergencia a un miembro de la audiencia**. Este DM es el punto exacto donde Clima Energético toca el arco de [[soledad-epistemica-marca-personal|soledad epistémica]].
+
+**Lectura del ángulo**:
+- Segmento revelado: **padres/madres de chicos neurodivergentes** — audiencia hiper-comprometida, desatendida, que ya vive registrando patrones de sueño y conducta de sus hijos. Encaja natural con el Registro Magnético (son registradores natos).
+- ⚠️ **Cautela epistémica máxima**: la anécdota es priming clásico (compararon horarios DESPUÉS de ver el video) + los trastornos de sueño en autismo son altísimos de base (40-80% prevalencia) + los chicos de una misma escuela comparten rutinas. La hipersensibilidad SENSORIAL en autismo es real y documentada (sonido, luz, tacto); la sensibilidad GEOMAGNÉTICA humana no tiene evidencia sólida (Kirschvink 2019 es n chico, ondas alfa, sin replicar). **Población vulnerable: jamás afirmar causalidad, jamás consejo sobre los chicos.**
+- **Forma correcta del contenido**: pregunta abierta en primera persona ("me escriben mamás de chicos ND... ¿lo notaste vos?") + invitación al experimento de agosto, NUNCA "los chicos autistas sienten las tormentas". El diferencial sigue siendo la honestidad metodológica.
+- Candidata VIP para el censo/experimento: @gisela_ange (madre + esposo ambos "sensibles", escuela especial = red de madres registradoras).
+
+## 🌙 Barrido lun 3/8 noche — 17 respuestas (principal 6 / parte 2 6 / tormenta 3 / soledad 2)
+
+**DATO DURO QUE CAMBIÓ EL BARRIDO**: el forecast de calma del 1/8 NO se cumplió — NOAA registró pico Kp 5.7 (G1 menor) el domingo 2/8 ~12:00 ART, madrugada del lunes en Kp 4-4.3, y el lunes a la noche seguía en Kp 4. Los reportes de insomnio de dom-lun tienen respaldo real; las respuestas se redactaron con "sigue inquieto" en vez de "ya pasó". **Protocolo nuevo: verificar NOAA en cada barrido antes de afirmar calma** (quedó fijado en CONTEXTO.md).
+
+**Señales:**
+- **El insomnio de dom-lun llegó puntual a los comments**: @ash_and_mist3 (madrugada del lunes sin sueño profundo — coincide exacto con Kp 4), @miryam_psi, @beli___diaz (x2), @louvalvega (despertares 2-3-4 AM). El pico G1 del domingo generó su propia tanda de testimonios 24-48h después — patrón confirmado: cada pico real trae cosecha de comments.
+- **Salud/benzo**: @louvalvega "ya iba a volver al clona 😂" → derivada con calidez (la vuelta al clonazepam va con médico, no sola). 4ª mención de benzos en la serie.
+- **Duelo**: @abrazos_en_el_alma (DOS perritos fallecidos en el mismo finde, sáb y dom) → respuesta humana pura, protocolo emocional, sin clima. El corpus mascotas suma un caso sensible (no usable como contenido directo).
+- **Zumbido reapareció espontáneo en el reel tormenta** (@sin.planes.001: "de noche mucho zumbido en los oídos") → promesa del video renovada + ORL. La demanda sigue viva sin alimentarla.
+- **Columnas de luz** (@adrianrosanas pidió info) → respondido con el fenómeno óptico real (cristales de hielo). Posible micro-tema para el pronóstico si vuelve a aparecer.
+- **CERN**: @cyn_np preguntó por "el día que se apagó el CERN" → Andrés eligió respuesta abierta ("¿qué tenés para contar? te leooo 👀") en vez del silencio de protocolo — variante nueva: invitar a hablar sin validar. Ver qué trae.
+- **Cruce de series confirmado en vivo**: @ariel.villegas en el reel soledad ("cuando liberás las capas terminás encontrando personas más acordes") = 2º voto orgánico en 24h al ángulo "no se buscan" (tras @ale_menger). El ángulo para la fase salida ya tiene evidencia doble.
+- **Sensible en soledad**: @evis1984 confesó que nunca apareció nadie sin traducciones ("mmm no") → follow-up de siembra de tribu sin pregunta. Registrada en el censo.
+- **Comment en polaco** en el reel tormenta (@andrzejrogowicz.polaco "Burza w blenos aries") — el reel cruzó idioma; respondido bilingüe liviano.

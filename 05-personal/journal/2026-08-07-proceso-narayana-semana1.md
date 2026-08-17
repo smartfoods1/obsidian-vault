@@ -65,6 +65,14 @@ Nombré el estado el 3/8: limerencia (Tennov, 1979) — infatuación involuntari
 - **Venus Leo**: no persigue, reina. Ya invitó una vez ("armamos un matecito en el jardín real") y no lo va a repetir → **el voucher está emitido, me toca canjearlo**.
 - **Asc Virgo + Venus del año en Virgo casa 11**: este año ama en modo concreto y de servicio. A ella se la enamora siendo útil, presente y confiable — el fuego leonino para los momentos.
 
+## ACTUALIZACIÓN 9/8 — decisión propia sobre el reencuentro
+
+**No le escribo cuando vuelva (11/8).** Si ella siente ganas de retomar el contacto, acá estoy. Si no pasa, dejo pasar algunos días y después le escribo yo.
+
+Diferencia clave con el 2/8 (cuando dije "si no me escribe apenas llega, no vale la pena"): **no hay veredicto ni condena**. No estoy midiendo si me merece — estoy dando espacio con la puerta abierta de los dos lados, y con iniciativa propia de reserva. No es esperar: es no forzar. Y viene desde el centro recuperado (post-respiración, día 2-3 del detox), no desde el orgullo.
+
+⚠️ Que "algunos días" tenga un número aproximado en la cabeza (3-5), no como plazo rígido sino como brújula: para saber cuándo dejo de dar espacio y empiezo a esconderme.
+
 ## Estado al 7/8 y qué viene
 
 - Pausa acordada de mi lado hasta que ella aparezca. Todo lo que pase se guarda para los mates.

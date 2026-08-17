@@ -12,7 +12,8 @@ status: activo
 - Recap semana (placas del video, ~30/7): **PL. I–IX** (cierre "Era el sol, no yo" = PL. IX).
 - Carrusel educativo "Por qué dormimos mal cuando el cielo se pone intenso" (4/8): **PL. X–XVIII**. Assets: `~/Desktop/assets-carrusel-guia-sueno/` (`build_slides.py` regenera los HTML; `png/` finales 2160×2700). Caption en `CAPTION.md` de esa carpeta.
 - Carrusel ficha "La resonancia Schumann" (4/8): **PL. XIX–XXVIII**. Assets: `~/Desktop/assets-carrusel-schumann/` · export listo para subir en `~/Desktop/carrusel-schumann/` (01–10.png + copy.txt). Registro editorial: tono catálogo, sin defensa ni aclaración (pedido explícito de Andrés). Incluye placa de folklore/conspiranoia rotulada "lo que se dice" — respeta la regla HAARP (ni valida ni desacredita).
-- **Próxima placa disponible: PL. XXIX.**
+- Carrusel detox de redes "No todo es lo que parece" (13/8): **PL. XXIX–XXXVII**. Assets: `~/Desktop/assets-carrusel-detox/` (`build_slides.py` regenera; `png/` finales 2160×2700). Caption en `CAPTION.md`. Registro editorial: formato diario (día 1 / 3 / 4) + dato duro de Tiempo de Uso + acuñación propia "la herida de Schrödinger" (PL. XXXV, la placa citable). Emojis omitidos en las placas por regla de sistema visual; van en el caption.
+- **Próxima placa disponible: PL. XXXVIII.**
 
 ## 📡 FUENTE OFICIAL — sos70.ru (documentado 30/7)
 
